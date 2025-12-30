@@ -13,6 +13,7 @@ export interface OmikujiTypeData {
 
 export interface OmikujiCardProps {
   omikujiType: OmikujiTypeData;
-  onSelect: (typeId: string) => void;
+  onSelect?: (typeId: string) => void;
   isDisabled?: boolean;
+  useNavigation?: boolean;
 }

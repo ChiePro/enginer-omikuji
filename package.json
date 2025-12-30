@@ -20,7 +20,8 @@
     "framer-motion": "^12.23.26",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "web-vitals": "^5.1.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
