@@ -1,7 +1,7 @@
 export class Rarity {
   private static readonly VALUES = {
-    COMMON: { value: 1, probability: 0.6, label: 'コモン', color: '#9CA3AF' },
-    RARE: { value: 2, probability: 0.3, label: 'レア', color: '#3B82F6' },
+    COMMON: { value: 1, probability: 0.60, label: 'コモン', color: '#9CA3AF' },
+    RARE: { value: 2, probability: 0.30, label: 'レア', color: '#3B82F6' },
     EPIC: { value: 3, probability: 0.08, label: 'エピック', color: '#8B5CF6' },
     LEGENDARY: { value: 4, probability: 0.02, label: 'レジェンダリー', color: '#F59E0B' }
   } as const;
