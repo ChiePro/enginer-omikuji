@@ -120,9 +120,9 @@ const OmikujiTypeGrid = () => {
 
   if (isTransitioning) {
     return (
-      <div className="flex justify-center items-center py-20">
-        <div role="status" aria-label="おみくじを準備中">
-          <div className="animate-spin rounded-full h-16 w-16 border-4 border-indigo-200 border-t-indigo-600"></div>
+      <div className="flex flex-col justify-center items-center py-20">
+        <div role="status" aria-label="おみくじを準備中" className="flex flex-col items-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-4 border-indigo-200 border-t-indigo-600 mx-auto"></div>
           <div className="text-center mt-4 text-gray-600">おみくじを準備中...</div>
         </div>
       </div>
