@@ -89,6 +89,11 @@
 | Hybrid (Server + Client) | メインページはServer Component、インタラクティブ部分のみClient Component | パフォーマンスと機能性のバランス、部分的なインタラクティブ機能初期化 | コンポーネント分割の複雑性 | **選択** - OmikujiCardコンポーネントのみClient Component化 |
 | Client Component Only | トップページ全体をClient Componentとして実装 | 実装がシンプル、全機能がクライアントサイド | JavaScript依存、初期ロード遅延、SEO不利 | steering/tech.mdの「Server Components First」方針に反する |
 
+**用語補足: インタラクティブ機能初期化**
+- サーバーで生成された静的HTMLページ（見た目だけの状態）に対して、ブラウザ側でJavaScriptを実行することで、ボタンのクリック、ホバーエフェクト、フォーム入力などの動的機能を有効化するプロセス
+- 段階的な処理: ① サーバーがHTMLを生成 → ② ブラウザが見た目を表示 → ③ JavaScriptがインタラクティブ機能を追加
+- Hybrid (Server + Client)パターンでは、必要最小限のコンポーネントのみをインタラクティブ化することで、初期表示の高速性を保ちつつ、ユーザー操作にも対応できる
+
 ## Design Decisions
 
 ### Decision: `おみくじデータの型定義と管理`
