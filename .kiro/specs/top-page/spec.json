@@ -3,7 +3,7 @@
   "description": "エンジニア向けおみくじサービスのトップページ - 一目でサービスを理解し、おみくじを引きたくなる動線を提供",
   "status": "tasks",
   "created_at": "2025-12-29",
-  "updated_at": "2025-12-29",
+  "updated_at": "2025-12-30",
   "language": "ja",
   "phases": {
     "requirements": {
@@ -16,7 +16,7 @@
     },
     "tasks": {
       "completed": true,
-      "approved": true
+      "approved": false
     },
     "implementation": {
       "completed": false

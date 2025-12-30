@@ -32,6 +32,12 @@ src/app/page.tsx (Server Component)
 │   └── RarityTier (Client) ← エフェクト
 └── features/motivation/SaisenHint (Server)
     └── SaisenBox3D (Client) ← 3Dアニメーション
+
+// エラーハンドリング境界
+src/app/
+├── error.tsx (Client) ← ルートエラーバウンダリ
+├── not-found.tsx (Server) ← 404エラーページ
+└── global-error.tsx (Client) ← グローバルエラーバウンダリ
 ```
 
 ## 技術スタックと整合性
@@ -182,6 +188,113 @@ export interface SaisenBoxProps {
   variant?: 'subtle' | 'prominent';
   showHint?: boolean;
   onInteract?: () => void;
+}
+```
+
+### 5. エラーハンドリングコンポーネント
+#### 概要
+アプリケーション全体のエラーハンドリングを担う基盤コンポーネント群。初期セットアップとして実装。
+
+#### 5.1 RootErrorBoundary (error.tsx)
+```typescript
+// src/app/error.tsx
+'use client';
+
+export interface ErrorPageProps {
+  error: Error & { digest?: string };
+  reset: () => void;
+}
+
+export default function Error({ error, reset }: ErrorPageProps) {
+  useEffect(() => {
+    // 将来のエラー監視ツール統合ポイント
+    console.error('Error captured:', error);
+  }, [error]);
+
+  return (
+    <div className="error-container">
+      <ShrineErrorVisual /> {/* 神社モチーフのエラービジュアル */}
+      <h1>おみくじが引けません</h1>
+      <p>申し訳ございません。神社の準備中です。</p>
+      <button onClick={reset} className="reset-button">
+        もう一度お参りする
+      </button>
+    </div>
+  );
+}
+```
+
+#### 5.2 NotFoundPage (not-found.tsx)
+```typescript
+// src/app/not-found.tsx
+import Link from 'next/link';
+
+export default function NotFound() {
+  return (
+    <div className="not-found-container">
+      <ShrineNotFoundVisual /> {/* 迷子の神社ビジュアル */}
+      <h1>404 - ページが見つかりません</h1>
+      <p>お探しのおみくじは別の神社にあるようです。</p>
+      <Link href="/" className="home-link">
+        トップページへ戻る
+      </Link>
+    </div>
+  );
+}
+```
+
+#### 5.3 GlobalErrorBoundary (global-error.tsx)
+```typescript
+// src/app/global-error.tsx
+'use client';
+
+export default function GlobalError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  return (
+    <html lang="ja">
+      <body>
+        <div className="global-error-container">
+          <h1>重大なエラーが発生しました</h1>
+          <p>アプリケーションの再起動が必要です。</p>
+          <button onClick={reset}>再起動</button>
+        </div>
+      </body>
+    </html>
+  );
+}
+```
+
+#### 5.4 カスタムエラータイプ
+```typescript
+// src/domain/errors/ApplicationErrors.ts
+export class OmikujiError extends Error {
+  constructor(
+    message: string,
+    public readonly code: string,
+    public readonly statusCode: number = 500
+  ) {
+    super(message);
+    this.name = 'OmikujiError';
+  }
+}
+
+export class OmikujiNotFoundError extends OmikujiError {
+  constructor(message: string) {
+    super(message, 'OMIKUJI_NOT_FOUND', 404);
+    this.name = 'OmikujiNotFoundError';
+  }
+}
+
+export class OmikujiValidationError extends OmikujiError {
+  constructor(message: string) {
+    super(message, 'OMIKUJI_VALIDATION_ERROR', 400);
+    this.name = 'OmikujiValidationError';
+  }
 }
 ```
 
@@ -608,23 +721,56 @@ export const OmikujiGrid = () => {
 
 ## エラーハンドリング設計
 
-### エラー境界
+### エラーハンドリングアーキテクチャ
+```
+┌─────────────────────────────────────────────┐
+│           Global Error Boundary             │
+│         (global-error.tsx)                  │
+├─────────────────────────────────────────────┤
+│         Root Error Boundary                 │
+│           (error.tsx)                       │
+├─────────────────────────────────────────────┤
+│       Application Components                │
+│     (Pages, Features, Components)           │
+├─────────────────────────────────────────────┤
+│         404 Handler                         │
+│       (not-found.tsx)                       │
+└─────────────────────────────────────────────┘
+```
+
+### エラーハンドリングストラテジー
+
+1. **グラニュラーエラーハンドリング**
+   - セグメント単位でerror.tsxを配置可能
+   - エラーは親セグメントへバブリング
+   - 特定機能のエラーを細かく制御
+
+2. **リセット機能の提供**
+   - 一時的なエラーからの復旧手段
+   - ユーザーにリトライオプションを提供
+
+3. **神社テーマのエラー表現**
+   - エラーページでもサービスの世界観を維持
+   - ユーモアを交えたエラーメッセージ
+
+### セキュリティ考慮事項
 ```typescript
-// src/app/error.tsx
-export default function Error({
-  error,
-  reset,
-}: {
-  error: Error & { digest?: string };
-  reset: () => void;
-}) {
-  return (
-    <div className="error-container">
-      <h2>申し訳ございません</h2>
-      <p>神社の準備中です。しばらくお待ちください。</p>
-      <button onClick={reset}>もう一度お参りする</button>
-    </div>
-  );
+// src/utils/error-handler.ts
+export function sanitizeError(error: Error): { message: string; digest?: string } {
+  const isDevelopment = process.env.NODE_ENV === 'development';
+  
+  if (isDevelopment) {
+    return {
+      message: error.message,
+      digest: error.stack
+    };
+  }
+  
+  // 本番環境では詳細を隠蔽
+  return {
+    message: '一時的なエラーが発生しました',
+    digest: generateErrorDigest(error)
+  };
 }
 ```
 
@@ -1062,21 +1208,28 @@ const securityHeaders = [
 | NFR-TOP-001 | 全体アーキテクチャ（Server Components） | 設計完了 |
 | NFR-TOP-002 | アクセシビリティ実装全般 | 設計完了 |
 | NFR-TOP-003 | レスポンシブデザイン | 設計完了 |
+| - | エラーハンドリング基盤 | 設計完了 |
 
 ## 実装優先順位
 
-1. **Phase 1**: 基本構造とServer Components
+1. **Phase 0**: エラーハンドリング基盤
+   - error.tsx、not-found.tsx、global-error.tsxの実装
+   - カスタムエラータイプの定義
+   - エラーサニタイザーの実装
+
+2. **Phase 1**: 基本構造とServer Components
    - HeroSection実装
    - OmikujiTypeGrid（静的表示）
 
-2. **Phase 2**: インタラクティブ要素
+3. **Phase 2**: インタラクティブ要素
    - OmikujiCard（アニメーション）
    - ページ遷移ロジック
 
-3. **Phase 3**: 追加機能
+4. **Phase 3**: 追加機能
    - RarityPreview
    - SaisenBox
 
-4. **Phase 4**: 最適化とテスト
+5. **Phase 4**: 最適化とテスト
    - パフォーマンステスト
    - アクセシビリティ検証
+   - エラー監視統合準備
