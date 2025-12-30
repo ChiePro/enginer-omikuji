@@ -3,6 +3,14 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { OmikujiTypeGrid } from './OmikujiTypeGrid';
 
+// useOmikujiSelectionフックをモック
+vi.mock('../../hooks/useOmikujiSelection', () => ({
+  useOmikujiSelection: vi.fn(() => ({
+    selectOmikuji: vi.fn(),
+    isTransitioning: false,
+  })),
+}));
+
 describe('OmikujiTypeGrid', () => {
   const mockOnSelect = vi.fn();
 

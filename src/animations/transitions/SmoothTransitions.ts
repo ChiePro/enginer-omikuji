@@ -282,3 +282,14 @@ export class SmoothTransitions {
     }
   }
 }
+
+/**
+ * ページ遷移前のアニメーション実行
+ */
+export const animatePageExit = async (): Promise<void> => {
+  // アニメーション実行のプロミスを返す
+  // 実際の実装では、DOM要素に対してアニメーションを適用
+  return new Promise((resolve) => {
+    setTimeout(resolve, 200); // 200ms のアニメーション時間
+  });
+};
