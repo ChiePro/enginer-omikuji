@@ -1,0 +1,112 @@
+{
+  "fortunes": [
+    {
+      "id": "shokichi",
+      "englishName": "common",
+      "japaneseName": "小吉",
+      "description": "少しずつ良いことがありそうです",
+      "probability": 0.30,
+      "value": 1,
+      "color": {
+        "primary": "#9CA3AF",
+        "secondary": "#6B7280",
+        "background": "#F3F4F6"
+      },
+      "effects": {
+        "glow": false,
+        "sparkle": false,
+        "animation": null
+      }
+    },
+    {
+      "id": "kichi",
+      "englishName": "rare",
+      "japaneseName": "吉",
+      "description": "良いことが起こりそうな予感です",
+      "probability": 0.25,
+      "value": 2,
+      "color": {
+        "primary": "#3B82F6",
+        "secondary": "#1E40AF",
+        "background": "#DBEAFE"
+      },
+      "effects": {
+        "glow": false,
+        "sparkle": false,
+        "animation": null
+      }
+    },
+    {
+      "id": "chukichi",
+      "englishName": "epic",
+      "japaneseName": "中吉",
+      "description": "かなり良いことが期待できます",
+      "probability": 0.15,
+      "value": 3,
+      "color": {
+        "primary": "#8B5CF6",
+        "secondary": "#5B21B6",
+        "background": "#E0E7FF"
+      },
+      "effects": {
+        "glow": true,
+        "sparkle": true,
+        "animation": null
+      }
+    },
+    {
+      "id": "daikichi",
+      "englishName": "legendary",
+      "japaneseName": "大吉",
+      "description": "最高の運勢！素晴らしいことが待っています",
+      "probability": 0.03,
+      "value": 4,
+      "color": {
+        "primary": "#F59E0B",
+        "secondary": "#92400E",
+        "background": "#FEF3C7"
+      },
+      "effects": {
+        "glow": true,
+        "sparkle": true,
+        "animation": "pulse"
+      }
+    },
+    {
+      "id": "kyo",
+      "englishName": "unlucky",
+      "japaneseName": "凶",
+      "description": "注意深く行動しましょう",
+      "probability": 0.15,
+      "value": -1,
+      "color": {
+        "primary": "#DC2626",
+        "secondary": "#991B1B",
+        "background": "#FECACA"
+      },
+      "effects": {
+        "glow": false,
+        "sparkle": false,
+        "animation": null
+      }
+    },
+    {
+      "id": "daikyo",
+      "englishName": "very-unlucky",
+      "japaneseName": "大凶",
+      "description": "今日は慎重に過ごしましょう",
+      "probability": 0.12,
+      "value": -2,
+      "color": {
+        "primary": "#991B1B",
+        "secondary": "#7F1D1D",
+        "background": "#FEE2E2"
+      },
+      "effects": {
+        "glow": false,
+        "sparkle": false,
+        "animation": null
+      }
+    }
+  ]
+}
