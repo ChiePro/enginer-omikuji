@@ -29,7 +29,10 @@ Next.js App Router を使用したモダンなReactアプリケーション。�
 - 型安全性の厳格な適用
 
 ### Testing
-- 現時点ではテストフレームワーク未導入
+- **Framework**: Jest 30.2.0 (TypeScript support via ts-jest)
+- **Coverage**: ユニットテスト、統合テスト、パフォーマンステスト
+- **Test Location**: `lib/__tests__/` (実装ファイルと同階層)
+- **Philosophy**: TDD (Test-Driven Development) - テストファースト、RED-GREEN-REFACTOR
 
 ## Development Environment
 
@@ -43,6 +46,8 @@ Next.js App Router を使用したモダンなReactアプリケーション。�
 # Build: npm run build
 # Start: npm run start
 # Lint: npm run lint
+# Test: npm test
+# Test Watch: npm run test:watch
 ```
 
 ## Key Technical Decisions
