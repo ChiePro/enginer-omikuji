@@ -174,3 +174,10 @@ kiro/specs
 ```
 
 
+### spec-tasks(タスク分解)
+
+```
+> /kiro:spec-tasks top-page -y
+
+```
+
