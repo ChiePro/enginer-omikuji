@@ -17,6 +17,8 @@
     "test:all": "npm run test && npm run test:e2e"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
     "framer-motion": "^12.23.26",
     "next": "16.1.1",
     "react": "19.2.3",
@@ -29,9 +31,12 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
     "@testing-library/user-event": "^14.6.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/supertest": "^6.0.3",
     "@vitejs/plugin-react": "^5.1.2",
     "@vitest/ui": "^4.0.16",
     "eslint": "^9",
@@ -39,6 +44,7 @@
     "happy-dom": "^20.0.11",
     "jsdom": "^27.4.0",
     "playwright": "^1.57.0",
+    "supertest": "^7.1.4",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^4.0.16"

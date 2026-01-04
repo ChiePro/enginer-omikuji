@@ -1,0 +1,634 @@
+{
+  "omikujiTypeId": "code-review-fortune",
+  "results": {
+    "daikichi": [
+      {
+        "id": "review-daikichi-001",
+        "titlePhrase": "レビュアーも唸る神コードで一発承認される日！",
+        "description": "今日のコードレビューは圧倒的な成功を収めるでしょう。書いたコードの品質が非常に高く、レビュアーからは賞賛のコメントが次々と寄せられます。設計の美しさ、実装の巧妙さ、テストの充実度、すべてが完璧で、即座に承認される可能性が高いです。チーム全体のコード品質向上にも貢献できる素晴らしい日となります。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "美しいコードに同僚が惚れ込む展開",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "レビューで絶賛され、技術リーダーの地位確立",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレスゼロの気持ち良いレビュー体験",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "コード品質評価で昇進・昇給の可能性",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "レビューから学ぶことで設計力が向上",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-daikichi-002",
+        "titlePhrase": "コードレビューで全メンバーが絶賛する天才的コードの日！",
+        "description": "今日はあなたのコードが芸術作品のように美しく、レビュアー全員から絶賛される特別な日です。アーキテクチャの優雅さ、アルゴリズムの効率性、テストの網羅性、すべてが完璧に整った作品として評価され、チームの手本として永久保存されるでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "美しいコードに感動したチームメンバーからのアプローチ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "コード品質の高さでプロジェクトの模範例に",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "絶賛のレビューで満足感と充実感満載",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "コード品質で業界での評価が急上昇、高給オファー",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "レビューでの絶賛から学ぶコード品質の本質",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-daikichi-003",
+        "titlePhrase": "コードレビューが学習材料になるほどの清明なコード！",
+        "description": "今日のコードは可読性と保守性の面で特に優秀で、レビュアーからは「このコードを手本にしたい」と絶賛されるでしょう。コメントの的確さ、関数の分割、パフォーマンス最適化など、あらゆる面でお手本のような完成度を誇ります。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "綺麗なコードでチームの憧れの存在に",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "手本レベルのコードで技術リーダーの地位獲得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "美しいコードを書けた充実感で精神的に最高潮",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "コード品質の高さでコンサルティング案件獲得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "綺麗なコード記述の基本原則を完全理解",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "chukichi": [
+      {
+        "id": "review-chukichi-001",
+        "titlePhrase": "バランスの良いコードレビューで着実な成長を実感する日",
+        "description": "今日のコードレビューは程よく建設的な指摘と賛辞がバランスよく混在し、あなたの成長に大きく貢献します。技術的な改善点も明確に指摘され、コードの一部では素晴らしいアプローチが評価されるでしょう。チーム全体のスキル向上にも貢献できる充実した一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "コードレビューでの積極的な姿勢が好評価",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "バランスの良いレビューでチームの品質向上に貢献",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "建設的なフィードバックでモチベーション向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "コード品質向上でプロジェクトの価値向上に貢献",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "フィードバックから学ぶコード改善の具体的手法",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-chukichi-002",
+        "titlePhrase": "チームメンバーとの技術議論が深まり知識共有が進む日",
+        "description": "今日はコードレビューを通じてチームメンバーとの深い技術的議論が展開されます。異なる視点やアプローチの交換で、お互いのスキルアップに繋がります。新しいパターンや手法を学び合い、チーム全体の技術レベルが底上げされる有益な日です。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術議論で感じるお互いの尊敬と信頼",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "知識共有でチームの技術力が底上げ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "有意義な議論で精神的に充実した時間",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "チームの技術レベル向上でプロジェクト成果向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "他メンバーの知識と経験から多くを学習",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-chukichi-003",
+        "titlePhrase": "コードレビューで新しい视点を得て視野が広がる日",
+        "description": "今日のコードレビューでは、あなたが今まで思いつかなかったアプローチや手法を学ぶことができます。レビュアーからの提案や異なる経験に基づくアドバイスが、あなたのコーディングスタイルをより豊かにします。新しい解決方法を学ぶ素晴らしい機会です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "新しい視点への理解で人間関係が深まる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "新手法の習得でコーディングスキルの幅が広がる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "新しい発見で知的刺激と充実感を得る",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "スキルの多様性でキャリアの選択肢が幅広く",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "異なるアプローチの習得で視野が大幅拡大",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kichi": [
+      {
+        "id": "review-kichi-001",
+        "titlePhrase": "コードレビューで学びながら着実に成長する日",
+        "description": "今日のコードレビューは学習と成長に焦点を当てた充実した時間となります。フィードバックは建設的で、改善点も具体的に指摘され、代替案も提示されます。コードの一部は適切に評価され、次回に向けた明確な方向性も得られるでしょう。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "レビューでの学習姿勢が信頼関係を深める",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "着実なコード改善でプロジェクト品質向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "学習への前向きな姿勢で精神的に充実",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "スキル向上で将来的な収入向上の基盤づくり",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "コードレビューから学ぶ実践的な改善手法",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-kichi-002",
+        "titlePhrase": "レビューでの指摘を素直に受け入れて成長する日",
+        "description": "今日はコードレビューでの指摘を謙虚に受け入れ、着実に改善に取り組むことができます。批判的なコメントも建設的に受け止め、コードの品質向上に繋げることができるでしょう。チームメンバーからの信頼も得られ、協力的な環境が生まれます。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "謙虚な姿勢で人間関係が良好に保たれる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "建設的な改善でコード品質が着実に向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "素直な成長姿勢でストレスなくスキルアップ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "継続的な改善で長期的な価値創出能力が向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "フィードバックを成長の粮とする学習スタイル習得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-kichi-003",
+        "titlePhrase": "コードの可読性改善でチームに貢献できる日",
+        "description": "今日のコードレビューでは、特に可読性や保守性の面でポジティブなフィードバックを得られるでしょう。コメントの充実や変数名の選択など、細かい気遣いが評価され、チーム全体のコード品質向上に貢献できたと実感できる日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "細かい気遣いが評価されて信頼度アップ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "可読性向上でチームのメンテナンス効率大幅改善",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "貢献を実感できて精神的に満たされる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "コード品質でプロジェクトの長期的価値創出",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "可読性の重要性と具体的な改善手法を学習",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "shokichi": [
+      {
+        "id": "review-shokichi-001",
+        "titlePhrase": "小さな改善を積み重ねてコード品質を向上させる日",
+        "description": "今日のコードレビューは、地道な改善の積み重ねが中心の内容です。一つ一つの指摘は小さくても、全体としてはシステムの安定性や保守性の向上に大きく貢献します。コーディングスタンダードやベストプラクティスの理解も深まります。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "細かい気遣いと着実さで好感度アップ",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "小さな改善の積み重ねでシステム品質向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "適度なペースでストレスなく成長できる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "継続的改善で長期的なコスト効率向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "基本的なコーディングスタンダードを着実に習得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-shokichi-002",
+        "titlePhrase": "コードレビューで基本スキルの大切さを再確認する日",
+        "description": "今日のレビューでは、華やかな技術よりも基本的なコーディングスキルの重要性を再認識することになります。変数のネーミング、エラーハンドリング、コメントの書き方など、基本的でありながら重要な要素を見直す機会を得ます。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "基本を大切にする姿勢で信頼できる人と評価",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "基本スキルの見直しでコード品質が安定",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "基本に立ち返ることで心の安定を得る",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "基本スキルの定着で安定したキャリア構築",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "基本の再学習で真の理解を深める",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-shokichi-003",
+        "titlePhrase": "コードレビューでチームの連帯感を実感できる日",
+        "description": "今日のコードレビューでは、チームメンバーとの連帯感や協力関係を深く実感することができます。お互いのコードをレビューし合い、共に成長していく過程で、チーム一丸となっており、同じ目標に向かって進んでいる実感を得られるでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "チームワークで面倖見られて関係性向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "チーム連帯でプロジェクトの結束力大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "チームの一体感で精神的な安定感を得る",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "チームの結束でプロジェクト成果が向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "チーム連帯の重要性と協力の価値を学習",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kyo": [
+      {
+        "id": "review-kyo-001",
+        "titlePhrase": "レビュー指摘事項が山積みとなる試練の日が来る",
+        "description": "今日のコードレビューでは厳しい指摘を受ける可能性が高いです。設計の見直し、実装方法の改善、テストケースの追加など、多くの修正依頼が来るかもしれません。しかし、これらの指摘は全てあなたの成長につながる貴重なフィードバックです。謙虚に受け入れ、改善に取り組むことで、確実にスキルアップできるでしょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "レビューコメントで議論が白熱しすぎて疲弊",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "大幅な修正依頼で作業量大幅増加",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "厳しいレビューでメンタルに負荷",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "レビュー対応で残業代は増えるが体力消耗",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "厳しいフィードバックから多くを学ぶ",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-kyo-002",
+        "titlePhrase": "コードレビューで細かいバグや設計の問題が次々発覚する日",
+        "description": "今日のレビューでは見落としていた細かいバグや設計上の問題が次々と指摘される困難な日です。プルリクエストの承認が遅れ、リファクタリングも必要になるかもしれません。しかし、このような詳細なレビューこそが、より高品質なコード作成への貴重な学習機会となります。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "細かい指摘の応酬で人間関係がギスギスする",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "バグ修正とリファクタリングで工数大幅増加",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "長時間のコード修正で肩こりと眼精疲労",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "修正作業の延長で予定外のコスト発生",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "詳細レビューからコード品質管理の重要性を学習",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "review-kyo-003",
+        "titlePhrase": "マージリクエストが何度も却下される辛抱の日",
+        "description": "今日はマージリクエストが何度提出しても承認されず、修正と再提出を繰り返す忍耐の日となります。コードの品質基準が厳しく、細かい部分まで指摘が入るでしょう。しかし、この厳格なレビュープロセスを通じて、プロフェッショナルなコード作成スキルが確実に向上します。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "何度も却下される事でコードレビューが憂鬱",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "マージ承認遅延でプロジェクト進行が滞る",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレス性の胃痛、睡眠不足で体調悪化",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "繰り返し修正で時間コストが予想以上に増加",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "厳格なレビューからプロレベルのコード技術習得",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "daikyo": [
+      {
+        "id": "review-daikyo-001",
+        "titlePhrase": "コードレビューで全力で批判される試練の日…",
+        "description": "今日のコードレビューは非常に厳しい内容になる可能性があります。多数の指摘事項、設計の根本的な見直し、パフォーマンスの問題など、大幅な修正が必要になるかもしれません。しかし、この厄しい経験こそが、あなたのコーディングスキルを飛躍的に向上させる最大のチャンスです。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "厳しいレビューで自信喪失、人間関係に亀裂",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "大幅なコード修正でプロジェクト遅延が深刻化",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "批判の嵐で精神的に大きなダメージ",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "修正作業の追加コストで予算オーバー",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "厳しいフィードバックから学ぶコード品質の本質",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-daikyo-002",
+        "titlePhrase": "コードレビューでチームの信頼を失う最悪の日…",
+        "description": "今日はコードレビューで重大なセキュリティホールやパフォーマンスの問題が発覚され、チームメンバーからの信頼を失う可能性があります。アーキテクチャの根本的な設計ミスや、最悪の場合はシステム全体の書き直しを余儀なくされる可能性もあります。しかし、この最悪の経験があなたを真のプロフェッショナルに変えるかもしれません。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "重大バグで恐怖の対象、完全に孤立状態",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "セキュリティホールでプロジェクト致命的打撃",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "極限ストレスで不眠症、体調崩壊",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "システム書き直しで予算が壊滅的打撃",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業遍",
+            "content": "最悪の失敗から学ぶセキュリティと品質管理",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "review-daikyo-003",
+        "titlePhrase": "コードレビューでエンジニア人生最大の危機が到来…",
+        "description": "今日のコードレビューでは、あなたのエンジニアとしての信頼やキャリアを根本から揺るがすような深刻な問題が発覚される可能性があります。チーム全体が混乱し、プロジェクトの継続すら危うくなるような最悪のシナリオもあり得ます。しかし、この絶望的状況こそが、あなたを真のエンジニアに成長させる最終試練です。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "キャリア危機で恐怖されて完全に孤立",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "プロジェクト全体がクラッシュして致命的打撃",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "極限ストレスで精神的に限界を超える",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "キャリアの危機で收入源を失う恐れ",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "最大の危機から学ぶプロジェクト管理とリーダーシップ",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-04T20:35:00.000Z",
+    "contentVersion": "2.0.0",
+    "totalVariations": 20,
+    "status": "active",
+    "fortuneTypes": {
+      "daikichi": 3,
+      "chukichi": 3,
+      "kichi": 3,
+      "shokichi": 3,
+      "kyo": 3,
+      "daikyo": 3
+    },
+    "emotionDistributionRules": {
+      "daikichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "chukichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "kichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "shokichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "kyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 },
+      "daikyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 }
+    },
+    "requiredCategories": ["恋愛運", "仕事運", "健康運", "金運", "学業運"]
+  }
+}

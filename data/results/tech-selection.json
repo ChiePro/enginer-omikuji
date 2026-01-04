@@ -1,0 +1,634 @@
+{
+  "omikujiTypeId": "tech-selection",
+  "results": {
+    "daikichi": [
+      {
+        "id": "tech-daikichi-001",
+        "titlePhrase": "究極のフレームワークとの運命的出会いが待つ日！",
+        "description": "今日選択する技術は、あなたのエンジニアキャリアを大きく飛躍させる運命的な選択になります。学習コストも低く、コミュニティサポートも充実した最高の技術に出会えるでしょう。ドキュメントも豊富で、実装もスムーズに進み、将来性も抜群の技術が見つかる素晴らしい一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術選定会議で意気投合する仲間に出会う",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "選択した技術でプロジェクトが大成功",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "学習ストレスゼロ、スムーズな技術習得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "その技術の専門家として高評価獲得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "新技術の理解が驚くほど早く進む",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "tech-daikichi-002",
+        "titlePhrase": "未来を変革するゲームチェンジャーフレームワークとの運命的な出会い！",
+        "description": "今日選択する技術は業界全体に革命をもたらす可能性を秘めた画期的なものです。早期採用者としての優位性を得られ、技術コミュニティでの発言力も大幅に向上するでしょう。この技術をマスターすることで、あなたは次世代のエンジニアリーダーとしての地位を確立できる素晴らしいチャンスを掴むことができます。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "最先端技術でモテ度急上昇、コードレビューで注目の的",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "革新的技術の導入でチームのヒーロー確定",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "新技術への興奮でアドレナリン大放出",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "先進フレームワーク専門家として高額オファー",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "革新技術の完全理解で業界のパイオニア",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "tech-daikichi-003",
+        "titlePhrase": "完璧なアーキテクチャ設計につながる神フレームワークの発見！",
+        "description": "今日出会う技術は、あなたの設計思想を根本から変える革命的なものとなるでしょう。パフォーマンス、スケーラビリティ、保守性のすべてが理想的に実現でき、チーム全体が感動するような美しいアーキテクチャを構築できます。この技術選択により、プロダクトの品質が格段に向上し、長期的な成功を約束する基盤が完成するでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "美しいコードアーキテクチャに同僚が惚れ惚れ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "技術選択でシステム設計が完璧に決まる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "理想的設計の完成で心身ともに爽快",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "フレームワーク設計力評価で昇進確定",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "システム設計の奥義を完全習得",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kichi": [
+      {
+        "id": "tech-kichi-001",
+        "titlePhrase": "堅実なフレームワーク選択で着実な成長を遂げる良い日",
+        "description": "今日の技術選択は確実にあなたのスキルセットを向上させる良い判断となります。枯れた技術とモダンな要素のバランスが取れた実用的な選択ができるでしょう。学習リソースも豊富で、実際のプロジェクトですぐに活用できる実践的な技術に出会えます。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "コード勉強会で良い仲間と出会う可能性",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "選択した技術で安定したパフォーマンス",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "適度な学習ペースで無理のない技術習得",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "フレームワークスキル向上が将来の収入アップにつながる",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "基本をしっかり学べる良い技術に出会う",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "tech-kichi-002",
+        "titlePhrase": "学習コストとメリットのバランスが取れた賢いフレームワーク選択の日",
+        "description": "今日は実用性と将来性を兼ね備えた素晴らしい技術に出会えます。導入コストが適切で、チームメンバーも習得しやすく、プロジェクトにスムーズに統合できる技術が見つかるでしょう。リスクが低く、確実なリターンが期待できる安定した技術選択となります。段階的な導入も可能で、既存システムとの相性も良好な理想的な選択となるはずです。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "フレームワーク選択の的確さでコードレビューでも信頼獲得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "リスクとリターンのバランスが取れた技術導入",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "無理のない学習ペースで心身ともに健康",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "コストパフォーマンスの良いフレームワーク投資",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "効率的な学習で確実なスキル向上",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "tech-kichi-003",
+        "titlePhrase": "チーム全体で共有しやすいフレームワークとの良い出会い",
+        "description": "今日選択する技術は、チーム開発に適した協調性の高いものとなります。学習カーブが緩やかで、経験豊富なメンバーから新人まで、誰もが理解しやすい技術に出会えるでしょう。ドキュメントが充実し、コミュニティサポートも活発で、チーム全体のスキルアップに貢献する価値ある選択となります。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "協調性のあるコード文化で良好な関係構築",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "チーム開発に最適な技術で生産性向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレス少なく学習できる優しい技術",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "安定したフレームワークでリスク回避、着実な成果",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "基礎から応用まで体系的に学べる技術",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "chukichi": [
+      {
+        "id": "tech-chukichi-001",
+        "titlePhrase": "トレンドフレームワークと安定技術の絶妙な融合を実現する日！",
+        "description": "今日は最新トレンドと実績のある安定技術を上手く組み合わせた理想的な技術スタックを構築できます。革新性と安定性のバランスが取れた選択により、プロジェクトの成功確率が大幅に向上するでしょう。チームメンバーの学習意欲も高まり、技術的なチャレンジと安心感を両立した素晴らしい環境が整います。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術スタックの絶妙なセンスで注目の的",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "革新と安定のバランス技術で大成功",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "適度な技術的刺激で脳が活性化",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "バランス技術で長期的な価値創出",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "新旧フレームワークの融合で理解が深まる",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "tech-chukichi-002",
+        "titlePhrase": "マイクロサービス設計に最適な技術の組み合わせ発見！",
+        "description": "今日はマイクロサービスアーキテクチャを支える理想的な技術の組み合わせを見つけることができます。サービス間通信、データ管理、監視、デプロイメントのすべての領域で最適な技術選択が可能となり、スケーラブルで保守性の高いシステム構築の道筋が明確になります。分散システムの複雑さを適切に管理できる技術スタックが完成するでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "マイクロサービス設計でアーキテクト魂炸裂",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "分散システム技術で次世代システム構築",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "システム設計の興奮でドーパミン分泌",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "マイクロサービス専門家として市場価値急上昇",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "分散システム設計の深い理解を獲得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "tech-chukichi-003",
+        "titlePhrase": "パフォーマンス最適化に特化したコード技術選択の成功日",
+        "description": "今日はシステムパフォーマンスを劇的に改善する技術との出会いがあります。キャッシュ戦略、データベース最適化、計算処理の効率化など、あらゆる面でのパフォーマンス向上が期待できる技術を発見できるでしょう。既存システムのボトルネックを解消し、ユーザー体験を大幅に向上させる技術的ブレイクスルーが実現します。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "パフォーマンス改善で周囲からの評価アップ",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "システム高速化で生産性大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "最適化作業で集中力が持続",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "パフォーマンス専門性で高収入案件獲得",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "最適化技術の原理を深く理解",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "shokichi": [
+      {
+        "id": "tech-shokichi-001",
+        "titlePhrase": "小さなコード改善が大きな効果をもたらす実感の日",
+        "description": "今日は地味ながら効果的な技術的改善を実現できます。ライブラリのバージョンアップ、設定の微調整、ツールチェーンの最適化など、小さな変更が予想以上の成果をもたらすでしょう。一見目立たない改善ですが、開発効率やシステム安定性に確実に貢献する価値ある作業となります。継続的改善の重要性を実感できる一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "細かい気配りが評価され、信頼関係構築",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "小さな技術改善で着実な成果を積み重ね",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "地道な作業で規則正しい生活リズム",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "効率化による時間短縮で実質的な収益向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "基本技術の理解が確実に深まる",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "tech-shokichi-002",
+        "titlePhrase": "既存フレームワークの新しい活用法を発見する学びの日",
+        "description": "今日は使い慣れた技術の新たな可能性を発見できます。これまで気づかなかった機能や、異なるアプローチでの活用方法が見えてくるでしょう。新しい技術を導入するのではなく、既存の技術をより深く理解し、効果的に活用する知恵が身につきます。技術の本質的な価値を再認識できる貴重な体験となるはずです。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "既存技術への新たな視点で会話が弾む",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "技術の新活用法で問題解決力向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "学習の発見喜びで精神的充実",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "既存リソース活用で投資効率向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "技術の本質理解で応用力が身につく",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "tech-shokichi-003",
+        "titlePhrase": "堅実なライブラリ選定で安定性を確保するコード基盤の日",
+        "description": "今日は信頼性の高いライブラリや依存関係を選定できる日です。流行に惑わされず、長期的な保守性とコミュニティサポートを重視した賢明な判断ができるでしょう。セキュリティアップデートが継続的に提供され、ドキュメントも充実した安心できる技術基盤を構築できます。地味ながら、プロジェクトの成功を支える重要な選択となります。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "堅実な判断力で信頼できるパートナー認定",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "安定したライブラリ選定で長期的成功",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "安心できる技術基盤でストレス軽減",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "保守コスト削減で予算効率化",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "技術選定の判断基準を体系的に学習",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "kyo": [
+      {
+        "id": "tech-kyo-001",
+        "titlePhrase": "技術選択ミスでコード進行が滞る注意深い日…",
+        "description": "今日は技術選択において慎重さが求められます。魅力的に見える技術にも落とし穴があり、十分な検証なしに導入すると後で痛い目を見る可能性があります。ドキュメント不足、コミュニティサポートの弱さ、パフォーマンス問題など、隠れたリスクを見落とさないよう注意が必要です。しかし、この経験は技術選定眼を鍛える貴重な機会となります。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術選択で議論白熱、意見対立で関係悪化",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "不適切な技術選択で開発効率低下",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "技術選定の重圧でストレス蓄積",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "技術選択ミスで追加コスト発生",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "失敗から学ぶ技術評価の重要性",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "tech-kyo-002",
+        "titlePhrase": "依存関係の複雑化でコード技術的負債が急増する危険日",
+        "description": "今日選択する技術は、予想以上に複雑な依存関係を持ち込む可能性があります。一見シンプルな技術でも、その背後には多数のライブラリが隠れており、バージョン競合や互換性問題を引き起こすかもしれません。システム全体の複雑性が増し、将来の保守作業が困難になるリスクがあります。技術選択時の詳細な調査の重要性を痛感する日となるでしょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "複雑な依存関係の説明で相手を困惑させる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "依存関係地獄で開発進行が大幅遅延",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "複雑な設定作業で眼精疲労と肩こり",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "技術的負債の解消に予算大幅超過",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "依存関係管理の難しさを身をもって体験",
+            "emotionTone": "negative"
+          }
+        ]
+      },
+      {
+        "id": "tech-kyo-003",
+        "titlePhrase": "流行フレームワークの罠にハマりそうになる警戒の日",
+        "description": "今日は流行の最新技術に惑わされやすい日です。SNSやカンファレンスで話題の技術が魅力的に見えますが、プロジェクトの要件に本当に適しているかは別問題です。エンジニアとしての好奇心と、プロジェクトの現実的な制約のバランスを取ることの難しさを感じるでしょう。冷静な判断力を保ち、本当に必要な技術なのかを慎重に検討する必要があります。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "流行技術への熱中で現実の人間関係が疎かに",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "技術選定で保守的派と革新派の板挟み",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "技術選択の悩みで寝不足、判断力低下",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "流行技術への投資判断で迷いが生じる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "技術選定における判断基準の重要性を学習",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "daikyo": [
+      {
+        "id": "tech-daikyo-001",
+        "titlePhrase": "すべての技術選択が裏目に出る呪われた暗黒の日…",
+        "description": "今日は技術選択において最悪の結果が続く不運な日です。選んだフレームワークに重大な脆弱性が発見され、依存ライブラリが突然サポート終了し、パフォーマンスも期待を大きく下回るかもしれません。しかし、このような極限状況こそが、真の技術判断力を身につける貴重な機会です。失敗から学び、より慎重で的確な技術選定能力を獲得していきましょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術選択の失敗続きで自信喪失、魅力度低下",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "全技術選択が失敗、プロジェクト大幅遅延",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "連続失敗のストレスで体調不良、不眠症",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "技術選択ミスで損失拡大、評価失墜",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "失敗体験から学ぶリスク管理の重要性",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "tech-daikyo-002",
+        "titlePhrase": "コード技術的判断力が完全に麻痺する混迷の一日",
+        "description": "今日は技術的な判断能力が著しく低下し、どの選択肢も正解に思えない混乱状態に陥る可能性があります。情報過多により決断力が鈍り、チームメンバーからの信頼も揺らぐかもしれません。しかし、このような困難な状況を乗り越えることで、情報を整理し冷静に判断する能力が格段に向上します。混乱の中から学ぶものは計り知れません。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "決断力の欠如で頼りない印象、信頼失墜",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "技術判断の迷いでプロジェクト停滞",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "判断疲れで精神的疲労、集中力散漫",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "優柔不断による機会損失、投資効率悪化",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "情報整理と意思決定プロセスの体系化学習",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "tech-daikyo-003",
+        "titlePhrase": "フレームワーク選定でチーム分裂、プロジェクト崩壊の危機",
+        "description": "今日の技術選択は、チーム内で激しい対立を引き起こし、プロジェクトの継続すら危うくなる可能性があります。技術的な意見の相違が感情的な対立に発展し、協力関係が破綻するかもしれません。しかし、このような危機的状況は、技術リーダーとしてのコミュニケーション能力と調整力を鍛える貴重な機会でもあります。困難を乗り越えてチームをまとめる経験は、将来必ず役に立つでしょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術論争で人間関係修復困難、孤立状態",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "技術選定対立でチーム分裂、プロジェクト破綻",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "人間関係ストレスで胃痛、不安神経症",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "プロジェクト失敗で大幅な損失発生",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "危機管理とチームビルディングスキル習得",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-04T20:05:00.000Z",
+    "contentVersion": "2.0.0",
+    "totalVariations": 18,
+    "status": "active",
+    "fortuneTypes": {
+      "daikichi": 3,
+      "kichi": 3,
+      "chukichi": 3,
+      "shokichi": 3,
+      "kyo": 3,
+      "daikyo": 3
+    },
+    "emotionDistributionRules": {
+      "daikichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "chukichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "kichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "shokichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "kyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 },
+      "daikyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 }
+    },
+    "requiredCategories": ["恋愛運", "仕事運", "健康運", "金運", "学業運"]
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "omikujiTypeId": "debug-fortune",
+  "results": {
+    "daikichi": [
+      {
+        "id": "debug-daikichi-001",
+        "titlePhrase": "バグが一瞬で特定される神のデバッグ運が到来！",
+        "description": "今日のデバッグ作業は奇跡的にスムーズに進みます。エラーログを見ただけで原因が直感的に分かり、修正箇所も一発で特定できるでしょう。複雑な問題も段階的に解決でき、リファクタリングのチャンスも見つかります。デバッガーとの相性も抜群で、効率的なデバッグが可能になる一日です。コードレビューも一発承認で、CI/CDパイプラインも完璧に動作します。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "ペアデバッグで息ぴったりの連携プレイ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "バグ修正で英雄扱い、評価うなぎ上り",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレスフリーなデバッグで体調良好",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "デバッグ効率化ツール開発でボーナス",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "デバッグ技術の理解が格段に深まる",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-daikichi-002",
+        "titlePhrase": "バグ発生原因が一目瞭然、コードの誤りを素早く発見する日！",
+        "description": "今日のデバッグ作業は直感と経験が見事に合致し、原因の特定が驚くべき速さで進みます。ログを見た瞬間に問題の箇所が浮かび、デバッガーを使った詳細調査もスムーズに進みます。チームメンバーからの信頼も厚く、技術的リーダーとしての地位を確立できる素晴らしい一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デバッグスキルでチームのアイドル的存在",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "絶妙なバグ修正でプロジェクトが大成功",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "短時間でのデバッグ完了で体力温存",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "デバッグ効率化で生産性向上、賞与アップ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "デバッグ技術の深い理解と実践力が身につく",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-daikichi-003",
+        "titlePhrase": "コードレビューでも気づかない潜在バグを発見する天才の日！",
+        "description": "今日は他の誰も気づかない潜在的なバグを発見する天才的な直感力が発揮されます。コードレビューやテストでは見つからなかった細かい不具合や、将来のパフォーマンス問題の種を的確に特定できでしょう。予防的デバッグのスキルが光る素晴らしい一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "高度なバグ発見スキルで尊敬される",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "事前バグ検出でシステム品質大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "予防的デバッグでストレスから解放",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "品質向上によるコスト削減で会社に大きな利益",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "コード品質とバグ予防の深い理解を獲得",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "chukichi": [
+      {
+        "id": "debug-chukichi-001",
+        "titlePhrase": "複雑なバグを段階的に解決していく充実のデバッグ日",
+        "description": "今日は複雑なバグに対して体系的なアプローチで取り組むことができます。問題を小さな部分に分割し、一つずつ着実に解決していく技術が光ります。デバッグツールの使い方も上達し、チーム全体のデバッグスキル向上に貢献できるでしょう。プルリクエストのマージも順調に進み、フレームワークの理解も深まります。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デバッグ手法を教えることで信頼関係構築",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "系統的なバグ修正でプロジェクトの安定性向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "計画的なデバッグで適度な休息も取れる",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "効率的なデバッグで時間コストを大幅削減",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "デバッグ方法論とツール使いこなしスキル向上",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-chukichi-002",
+        "titlePhrase": "コードベース全体のバグパターンを把握する洞察力の日",
+        "description": "今日は個々のバグだけでなく、システム全体のバグパターンや潜在的な問題を把握する能力が発揮されます。メトリクスやログの解析から、将来のトラブルを事前に防ぐ手がかりも特定できるでしょう。コード品質向上への具体的な提案もできる充実した一日です。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "データ解析スキルでチームの注目を集める",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "予防的なバグ対策でシステムの安定性大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "解析作業で集中力が持続、適度な刺激",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "システム安定性の向上で運用コスト削減",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "システム全体の理解とデータ解析スキルが向上",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-chukichi-003",
+        "titlePhrase": "チームでのコードレビューが機能してバグ発見が進む日",
+        "description": "今日はチームでのコラボレーションが素晴らしく機能し、集団でのバグ発見が進みます。ペアデバッグやコードレビューでの議論が活発に行われ、異なる視点からのアプローチが新しい発見をもたらします。チーム全体のデバッグスキル向上に繋がる価値ある一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "チームワークで結束が深まり、信頼関係向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "集団デバッグで高品質なコードを実現",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "チームでの作業でコミュニケーションが活発",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "チーム連携の効率化でプロジェクトの成果向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "他メンバーからの知識共有でスキル大幅向上",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kichi": [
+      {
+        "id": "debug-kichi-001",
+        "titlePhrase": "着実なデバッグでコード品質を向上させる日",
+        "description": "今日は着実で体系的なデバッグ作業が進みます。一つ一つのバグを丁寧に解決し、コードの品質向上に繋げることができるでしょう。テストケースの追加やリファクタリングの機会も見つかり、継続的な改善に繋がる価値ある一日です。デプロイプロセスも安定し、レビュー品質も向上します。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "地道なデバッグ作業で着実な人柄を評価",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "丁寧なバグ修正でシステムの安定性向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "適度なペースで無理のないデバッグ作業",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "継続的改善で長期的なコスト削減効果",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "デバッグの基本を着実に習得してスキルアップ",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-kichi-002",
+        "titlePhrase": "ログ解析が順調に進み問題特定ができる日",
+        "description": "今日はログ解析のスキルが光り、エラーメッセージやスタックトレースから的確に問題を特定できます。デバッグツールの使い方も上達し、効率的な問題解決プロセスを確立できるでしょう。新しいデバッグ手法も学べるよい機会です。コードレビューでの指摘も的確で、リファクタリングの成果も上がります。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デバッグ手法を教えることで関係性向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "効率的なデバッグでプロジェクト進行がスムーズ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "スキル向上の手応えで精神的充実感",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "デバッグ効率化で時間短縮、実質的な收入向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "ログ解析とデバッグツールの高度な活用法習得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-kichi-003",
+        "titlePhrase": "コードレビューと組み合わせてバグ予防ができる日",
+        "description": "今日はデバッグとコードレビューを組み合わせた予防的アプローチが機能します。バグの発生パターンを理解し、事前に防ぐためのチェックリストやガイドラインを作成できるでしょう。チーム全体の品質意識向上に貢献できる日です。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "品質向上への意識の高さで信頼を獲得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "予防的品質管理でプロジェクトの安定性向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "予防作業で心理的安心感とストレス軽減",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "バグ予防による修正コストの大幅削減",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "品質管理と予防的デバッグの手法を体系化",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "shokichi": [
+      {
+        "id": "debug-shokichi-001",
+        "titlePhrase": "小さなバグ修正が積み重なって成果を上げる日",
+        "description": "今日は地道なバグ修正作業が中心の一日です。一つ一つは小さな問題ですが、積み重ねることでシステム全体の安定性が向上します。細かいコードの整理やテストの充実など、基本的な品質向上に取り組む良い機会です。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "地道な作業で着実な人柄を評価される",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "小さな改善の積み重ねでシステム品質向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "適度なペースで無理のない作業が可能",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "継続的改善で長期的なコスト効率向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "デバッグの基本スキルと細かい注意力が身につく",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-shokichi-002",
+        "titlePhrase": "コードリーディングスキルが向上してバグ発見ができる日",
+        "description": "今日はコードを読むスキルが向上し、他の人のコードからもバグを発見できるようになります。コードレビューの精度も上がり、チーム全体のコード品質向上に貢献できるでしょう。新しいプログラミングパターンやアンチパターンの理解も深まります。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "コードレビューで的確な指摘で信頼関係構築",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "コードリーディングスキル向上でレビュー品質大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "スキル向上で自信がつき精神的に充実",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "コード品質向上による長期的な価値創出",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "コードリーディングとパターン認識スキルが向上",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-shokichi-003",
+        "titlePhrase": "デバッグツールを使いこなして効率化を実現する日",
+        "description": "今日はデバッグツールの使い方をしっかりと習得し、作業効率を向上させることができます。IDEのデバッグ機能やログ解析ツールの活用で、これまでよりも簡単に問題を特定できるようになります。ツールの実用的な使い方を学ぶ本日です。バグ修正のスピードも向上し、フレームワークの理解も深まります。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "ツールの使い方を教えあうことで交流深まる",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "ツール活用でデバッグ効率が着実に向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "効率的デバッグで精神的負担軽減",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "ツールスキル向上で作業時間短縮、実質的收入向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "デバッグツールの実践的なスキルが身につく",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kyo": [
+      {
+        "id": "debug-kyo-001",
+        "titlePhrase": "デバッグ地獄に迷い込む試練の一日が待つ…",
+        "description": "今日は手強いバグとの激しい闘いが予想されます。エラーメッセージは曖昧で、再現条件も特定困難な問題に遭遇するかもしれません。しかし、この困難な経験こそが、あなたのデバッグスキルを次のレベルへ押し上げる貴重な機会となります。根気強く取り組むことで、必ず解決策が見つかるでしょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デバッグに集中しすぎてコミュニケーション不足",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "複雑なバグに時間を取られ進捗遅延",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "長時間のデバッグで目や肩に負担",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "デバッグツール購入で出費増加",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "難解なバグから多くのことを学ぶ機会",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "debug-kyo-002",
+        "titlePhrase": "バグの原因が見つからずコードレビューも難航する試練の日",
+        "description": "今日はバグの原因特定が非常に困難で、コードレビューでも明確な解決策が見つからない厳しい日です。デバッグツールを使っても手がかりが少なく、マージリクエストの承認も保留状態が続くでしょう。しかし、この困難な状況こそが、より体系的なデバッグ手法とチーム連携の重要性を学ぶ貴重な機会となります。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デバッグの困難でチーム内の雰囲気が重くなる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "バグ修正とコードレビューが長期化して進捗遅延",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "長時間のデバッグ作業で肩こりと眼精疲労",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "バグ修正の遅延で残業代増加、効率性低下",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "困難なデバッグからレビュープロセスの重要性を学習",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "debug-kyo-003",
+        "titlePhrase": "コードの迷宮でバグの痕跡をたどる苦悩の日…",
+        "description": "今日はコードの迷宮に迷い込み、バグの正体がなかなか掴めない困難な日となりそうです。エラーメッセージも曖昧で、スタックトレースも読みにくく、デバッグ作業が異常に長引く可能性があります。しかし、このような数多の困難に立ち向かうことで、デバッグスキルが大幅に向上します。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "バグ奮闘で精神的に疲弊、人付き合いがおろそかに",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "迷宮のようなコードでデバッグに予想以上の時間",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "長時間のコード解析で目や肩に負担がかかる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "バグ修正の遅延でコストが予想以上にかかる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "複雑なバグからコード読解力と忍耐力を習得",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "daikyo": [
+      {
+        "id": "debug-daikyo-001",
+        "titlePhrase": "バグが無限ループしてシステム全体が混乱の日…",
+        "description": "今日は非常に困難なバグに直面し、解決に長時間を要する可能性があります。システムの深い部分に根ざした問題や、複数のコンポーネントにまたがる複雑な不具合に遇遇するかもしれません。しかし、このような極限状況こそが、デバッグスキルを次のレベルへと引き上げる貴重な機会です。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デバッグに集中しすぎてプライベートが疑かに",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "深刻なバグでプロジェクトの遅延が避けられない",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "長時間のデバッグで精神的・肉体的疲労が極限",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "バグ対応コストが予想を大きく上回る",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "極限状況から得られる深いデバッグ経験と知識",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-daikyo-002",
+        "titlePhrase": "再現不可能なハイゼンバグに翻弄される地獄の日…",
+        "description": "今日は再現条件が特定できない、非常に厳しいバグに悩まされる可能性があります。ヒューマンエラーやタイミングに依存する問題など、非常に捕えにくいバグとの戦いが予想されます。しかし、この経験はあなたのデバッグスキルを送人レベルまで引き上げる過酷な訓練でもあります。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "バグ解決に必死でコミュニケーションがおろそかに",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "再現困難バグでチーム全体のモチベーション低下",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレス満載のデバッグ作業で体調不良",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "異常なバグ対応で超過勤務と追加コスト発生",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "極限デバッグから得られるマスターレベルの知識",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "debug-daikyo-003",
+        "titlePhrase": "コード全体を書き直すレベルの根本的バグとの最終決戦…",
+        "description": "今日はアーキテクチャレベルでの根本的な問題に直面し、大規模なリファクタリングが必要になる可能性があります。設計の根幹を揺るがすような深刻なバグや、技術的負債の集大成が露呈するかもしれません。しかし、この絶望的な状況こそが、真のエンジニアとしての力量を試される最大の試練です。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "大規模リファクタリングで恐怖の羽目で見られる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "根本的バグでプロジェクト全体が危機的状況",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "極限ストレスで心身ともに限界超え",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "総書き直しコストで予算が壊滅的打撃",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "最悪の状況から学ぶアーキテクチャ設計の深い理解",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-04T20:30:00.000Z",
+    "contentVersion": "2.0.0",
+    "totalVariations": 20,
+    "status": "active",
+    "fortuneTypes": {
+      "daikichi": 3,
+      "chukichi": 3,
+      "kichi": 3,
+      "shokichi": 3,
+      "kyo": 3,
+      "daikyo": 3
+    },
+    "emotionDistributionRules": {
+      "daikichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "chukichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "kichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "shokichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "kyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 },
+      "daikyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 }
+    },
+    "requiredCategories": ["恋愛運", "仕事運", "健康運", "金運", "学業運"]
+  }
+}

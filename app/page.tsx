@@ -103,54 +103,210 @@ const SaisenSelector = () => (
 );
 
 const OmikujiTypeGrid = () => {
-  const [isTransitioning, setIsTransitioning] = React.useState(false);
-  
   const omikujiTypes = [
-    { id: 'engineer-fortune', name: 'エンジニア運勢', description: '今日のコーディングを占う', icon: '⚡' },
-    { id: 'tech-selection', name: '技術選定おみくじ', description: '次に学ぶ技術を決める', icon: '🎲' },
-    { id: 'debug-fortune', name: 'デバッグ運', description: 'バグ解決のヒントを得る', icon: '🐛' },
-    { id: 'review-fortune', name: 'コードレビュー運', description: 'レビューの結果を予想', icon: '👀' },
-    { id: 'deploy-fortune', name: 'デプロイ運', description: 'デプロイの成功を占う', icon: '🚀' }
+    { 
+      id: 'engineer-fortune', 
+      name: 'エンジニア運勢', 
+      description: '今日のコーディングを占う', 
+      icon: '⚡',
+      color: { primary: '#6366f1', secondary: '#4f46e5' }
+    },
+    { 
+      id: 'tech-selection', 
+      name: '技術選定おみくじ', 
+      description: '次に学ぶ技術を決める', 
+      icon: '🎲',
+      color: { primary: '#8b5cf6', secondary: '#7c3aed' }
+    },
+    { 
+      id: 'debug-fortune', 
+      name: 'デバッグ運', 
+      description: 'バグ解決のヒントを得る', 
+      icon: '🐛',
+      color: { primary: '#10b981', secondary: '#059669' }
+    },
+    { 
+      id: 'code-review-fortune', 
+      name: 'コードレビュー運', 
+      description: 'レビューの結果を予想', 
+      icon: '👀',
+      color: { primary: '#f59e0b', secondary: '#d97706' }
+    },
+    { 
+      id: 'deploy-fortune', 
+      name: 'デプロイ運', 
+      description: 'デプロイの成功を占う', 
+      icon: '🚀',
+      color: { primary: '#ef4444', secondary: '#dc2626' }
+    }
   ];
 
-  const handleCardSelect = () => {
-    setIsTransitioning(true);
-    // シミュレートされた遷移
+  const [isDrawing, setIsDrawing] = React.useState(false);
+  const [error, setError] = React.useState<string | null>(null);
+  const [result, setResult] = React.useState<any>(null);
+  const [showResult, setShowResult] = React.useState(false);
+
+  const handleCardSelect = async (typeId: string) => {
+    try {
+      setIsDrawing(true);
+      setError(null);
+
+      const response = await fetch('/api/omikuji/draw', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          omikujiType: typeId,
+          monetaryAmount: 0,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!data.success) {
+        throw new Error(data.error?.message || 'おみくじを引くことができませんでした');
+      }
+
+      setResult(data.result);
+      setShowResult(true);
+      
+    } catch (err) {
+      const errorMessage = err instanceof Error ? err.message : 'おみくじを引くことができませんでした';
+      setError(errorMessage);
+    } finally {
+      setIsDrawing(false);
+    }
   };
 
-  if (isTransitioning) {
+  const handleCloseResult = () => {
+    setShowResult(false);
+    setResult(null);
+  };
+
+  if (showResult && result) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div className="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-2xl w-full max-h-[90vh] overflow-y-auto relative">
+          <button
+            onClick={handleCloseResult}
+            className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl"
+            aria-label="結果を閉じる"
+          >
+            ×
+          </button>
+          
+          {/* 運勢結果 */}
+          <div className="text-center mb-8">
+            <div className="text-6xl mb-4">🎊</div>
+            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+              {result.fortune.name}
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400">
+              {result.fortune.description}
+            </p>
+          </div>
+
+          {/* タイトルフレーズ */}
+          <div className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-lg p-6 mb-6">
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3 text-center">
+              今日のメッセージ
+            </h3>
+            <p className="text-lg text-gray-800 dark:text-gray-200 text-center leading-relaxed">
+              {result.omikujiResult.titlePhrase.value}
+            </p>
+          </div>
+
+          {/* 説明 */}
+          <div className="mb-6">
+            <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+              {result.omikujiResult.description.value}
+            </p>
+          </div>
+
+          {/* カテゴリ別運勢 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            {result.omikujiResult.categories.items.map((category: any, index: number) => (
+              <div key={index} className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
+                <div className="flex items-center mb-2">
+                  <div className={`w-3 h-3 rounded-full mr-2 ${
+                    category.emotionTone === 'positive' ? 'bg-green-400' :
+                    category.emotionTone === 'negative' ? 'bg-red-400' : 'bg-yellow-400'
+                  }`}></div>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">
+                    {category.name}
+                  </h4>
+                </div>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  {category.content}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* アクションボタン */}
+          <div className="flex gap-4 justify-center">
+            <button
+              onClick={handleCloseResult}
+              className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
+            >
+              別のおみくじを引く
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (isDrawing) {
     return (
       <div className="flex flex-col justify-center items-center py-20">
-        <div role="status" aria-label="おみくじを準備中" className="flex flex-col items-center">
+        <div role="status" aria-label="おみくじを引いています" className="flex flex-col items-center">
           <div className="animate-spin rounded-full h-16 w-16 border-4 border-indigo-200 border-t-indigo-600 mx-auto"></div>
-          <div className="text-center mt-4 text-gray-600">おみくじを準備中...</div>
+          <div className="text-center mt-4 text-gray-600">おみくじを引いています...</div>
         </div>
       </div>
     );
   }
 
   return (
-    <div data-testid="omikuji-type-grid" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {omikujiTypes.map((type) => (
-        <div
-          key={type.id}
-          data-testid={`omikuji-card-${type.id}`}
-          className="omikuji-card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border-2 border-gray-200"
-        >
-          <div className="text-center mb-4">
-            <div className="text-4xl mb-3">{type.icon}</div>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{type.name}</h3>
-            <p className="text-gray-600 dark:text-gray-400 text-sm">{type.description}</p>
-          </div>
+    <div data-testid="omikuji-type-grid">
+      {error && (
+        <div className="mb-6 bg-red-50 border border-red-200 rounded-lg p-4">
+          <div className="text-red-600 font-semibold">エラー</div>
+          <div className="text-red-700">{error}</div>
           <button
-            onClick={handleCardSelect}
-            className="w-full py-3 px-4 rounded-lg font-medium text-white bg-indigo-600 hover:bg-indigo-700 transition-all"
-            aria-label={`${type.name}を選択`}
+            onClick={() => setError(null)}
+            className="mt-2 px-4 py-2 bg-red-100 text-red-700 rounded hover:bg-red-200 transition-colors"
           >
-            このおみくじを引く
+            閉じる
           </button>
         </div>
-      ))}
+      )}
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {omikujiTypes.map((type) => (
+          <div
+            key={type.id}
+            data-testid={`omikuji-card-${type.id}`}
+            className="omikuji-card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border-2 border-gray-200"
+          >
+            <div className="text-center mb-4">
+              <div className="text-4xl mb-3">{type.icon}</div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{type.name}</h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">{type.description}</p>
+            </div>
+            <button
+              onClick={() => handleCardSelect(type.id)}
+              disabled={isDrawing}
+              className="w-full py-3 px-4 rounded-lg font-medium text-white bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+              aria-label={`${type.name}を選択`}
+            >
+              このおみくじを引く
+            </button>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

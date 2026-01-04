@@ -1,0 +1,626 @@
+{
+  "omikujiTypeId": "engineer-fortune",
+  "results": {
+    "daikichi": [
+      {
+        "id": "engineer-daikichi-001",
+        "titlePhrase": "今日は神レベルのコードが降臨する最高の一日！",
+        "description": "バグゼロでリリース成功、技術選定も完璧、同僚からの評価もMAX。今日のあなたは無敵のエンジニアです。コードレビューも一発通過で、新しいアーキテクチャの設計も神がかり的。全てのタスクが理想的に進行し、技術的な課題も次々と解決していく素晴らしい一日となるでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "ペアプロで距離が縮まる、GitHubのフォロワー急増",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運", 
+            "content": "コードレビューが一発承認、新技術習得チャンス到来",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "良い椅子との出会い、目の疲れ軽減",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "ストックオプション上昇、副業案件獲得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "新フレームワーク理解が進む、アーキテクチャ設計スキル向上",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "engineer-daikichi-002",
+        "titlePhrase": "CI/CDパイプラインが完璧に動作する神の日！",
+        "description": "自動化の魔法が発動し、デプロイが一瞬で完了する奇跡的な一日。テストカバレッジも100%近くに達し、コードの品質が飛躍的に向上します。チーム全体のモチベーションも最高潮で、次世代アーキテクチャの設計にも着手できそうです。技術的な課題がすべて良い方向に進む素晴らしい日となるでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "開発者コミュニティで素敵な出会い、技術イベントでの交流",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "CI/CDの完璧な構築、デプロイメント自動化の成功",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "快適な開発環境で体調良好、集中力MAX",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "技術系転職オファー、昇給の可能性大",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "クラウドアーキテクチャの完全理解、認定資格取得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "engineer-daikichi-003",
+        "titlePhrase": "アルゴリズムの神が舞い降りる究極のコード術！",
+        "description": "複雑な問題に対する最適解が閃きのように浮かび、パフォーマンスチューニングも驚異的な成果を上げる日です。データ構造の選択も完璧で、計算量の削減に大成功します。新しいライブラリの習得も順調で、技術的な引き出しが大幅に増える素晴らしい一日となるでしょう。同僚からの尊敬の眼差しも得られそうです。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "競技プログラミングで注目の的、技術力でアピール",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "アルゴリズム最適化で大幅な性能向上を実現",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "脳の働きが最高潮、思考がクリアで疲れ知らず",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "技術コンサルティング依頼、高単価案件獲得",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "複雑なアルゴリズムの完全理解、論文執筆も進む",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kichi": [
+      {
+        "id": "engineer-kichi-001",
+        "titlePhrase": "コーディング作業が絶好調に進む良い一日！",
+        "description": "今日は着実な進歩を実感できる日。新しい技術への理解も深まり、チーム開発が順調に進みます。プログラミングのスキルも向上し、理想的なコードが書けるでしょう。実装する機能の仕様も明確になり、設計から実装まで一連の流れがスムーズに進む良い一日となります。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "通常運転のペアプロ、安定したコミュニケーション",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "着実なタスク進行、安定したパフォーマンス",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "適度な休憩を心がけて、体調管理をしっかりと",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "堅実な技術投資が功を奏する",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "新しい技術の学習に良い日",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "engineer-kichi-002",
+        "titlePhrase": "新しいフレームワークとの良い出会いがある日！",
+        "description": "技術の学習が順調に進み、新しいツールやライブラリとの相性も良好です。ドキュメントの理解も早く、実装に必要な知識が着実に身につきます。チームメンバーとの技術的な議論も建設的で、プロジェクト全体が良い方向に進む実感があります。今日の経験は将来の技術選択の良い指針となるでしょう。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術系の勉強会で良い仲間に出会う可能性",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "新技術の学習が順調、実装スキルの着実な向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "程良い集中で疲れすぎず、バランス良く作業",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "スキルアップが将来の収入向上につながる",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "新しいフレームワークの基本概念を確実に習得",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "engineer-kichi-003",
+        "titlePhrase": "コードレビューで良いフィードバックを得られる日",
+        "description": "同僚からの建設的なレビューコメントが多く、自分のコーディングスタイルの改善点が明確になります。チーム全体のコード品質向上にも貢献でき、技術的な議論が活発に行われる良い雰囲気です。新しい開発手法やベストプラクティスの理解も深まり、より良いエンジニアになるための具体的な道筋が見えてきます。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "チーム内での信頼関係構築、良好なコミュニケーション",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "コードレビューで成長、チーム貢献度アップ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "ポジティブなフィードバックで気分上々",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "技術力評価が上がり、昇進の可能性",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "ベストプラクティスの習得、設計力の向上",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "chukichi": [
+      {
+        "id": "engineer-chukichi-001",
+        "titlePhrase": "リファクタリングで脳汁が大放出される日！",
+        "description": "コードの品質向上に専念できる素晴らしい一日。技術的負債の解消が進み、設計パターンへの理解も深まるでしょう。チーム全体の生産性向上にも貢献できそうです。新しいツールの導入も順調で、開発環境の改善が期待できます。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "技術談義で意気投合、共通の興味で距離が縮まる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "リファクタリング作業が絶好調、コード品質大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "集中力が持続、適度な運動で体調良好",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "技術ブログが注目を集め、副収入の可能性",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "設計パターンの理解が一気に深まる",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "engineer-chukichi-002",
+        "titlePhrase": "技術的負債解消でコードベースが生まれ変わる日！",
+        "description": "長年放置されていた技術的負債の解消に取り組む絶好の機会です。レガシーコードの理解が深まり、現代的なパターンでの置き換えが順調に進みます。チーム全体のモチベーションも高く、大規模なリファクタリングプロジェクトが成功する予感です。新しいアーキテクチャへの移行も見えてくる充実した一日となるでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "リファクタリング作業でチームワークが深まる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "技術的負債解消で開発速度が大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "きれいなコードを書く喜びでエンドルフィン分泌",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "保守コスト削減で予算に余裕が生まれる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "モダンなパターンの習得が加速",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "engineer-chukichi-003",
+        "titlePhrase": "新しいツールの導入で開発効率が向上する良い日",
+        "description": "生産性向上に繋がる新しい開発ツールとの出会いがあります。IDEのプラグインや自動化スクリプトの設定が順調に進み、日々のコード作成が格段に楽になるでしょう。チームメンバーからも良いフィードバックが得られ、CI/CD環境の継続的改善の文化が根付いていく実感があります。小さな改善の積み重ねが大きな成果に繋がる一日です。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "ツールの共有で同僚との会話が弾む",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "新ツールで作業効率が着実に改善",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "作業の自動化で肩こり・眼精疲労軽減",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "効率化により残業代削減、時間の価値向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "新ツールの使いこなしスキルが身につく",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "shokichi": [
+      {
+        "id": "engineer-shokichi-001",
+        "titlePhrase": "小さなバグ修正から大きな学びを得られる日",
+        "description": "一見小さな問題の解決から、意外な技術的発見があります。デバッグスキルが向上し、システムの深い部分への理解も進むでしょう。今日の経験は将来の大きな成果につながる貴重な一歩となります。ログの読み方やエラーメッセージの解釈能力も身につき、トラブルシューティングのスキルが確実に向上していくでしょう。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "小さな気配りが好印象、地道なコミュニケーション",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "地道なバグ修正作業、着実なスキル向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "小まめな休憩で疲労回復、体調管理に注意",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "堅実な技術投資、小さな成果の積み重ね",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "基本概念の復習、地道な学習が実を結ぶ",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "engineer-shokichi-002",
+        "titlePhrase": "細かいコード改善の積み重ねが実を結び始める日",
+        "description": "これまでの地道な努力が少しずつ形になってきます。小さなコミットの積み重ね、ドキュメントの充実、テストカバレッジの向上など、日々の細かい作業が確実に成果として現れる実感があります。チームからの信頼も徐々に高まり、より重要なタスクを任されるチャンスも見えてきそうです。継続は力なりを実感できる良い日となるでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "継続的な努力が相手に評価される",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "細かい改善作業で着実な成長を実感",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "規則正しい作業リズムで体調安定",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "地道な技術投資が徐々に利益を生む",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "継続学習の成果が形となって現れる",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "engineer-shokichi-003",
+        "titlePhrase": "単体テストの充実で安心感を得られる地味な日",
+        "description": "今日は派手な機能開発ではなく、テストの充実に時間を割く日となります。カバレッジの向上、エッジケースの追加、モックの整備など、地味ながら重要な作業が中心です。一見地味な作業ですが、将来のバグ予防と開発効率向上に大きく貢献する価値ある投資となるでしょう。安定したソフトウェアの基盤づくりに手応えを感じる日です。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "地味な作業でも支えてくれる理解者の存在",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "テスト充実で将来のトラブル回避",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "健康運",
+            "content": "集中力を要する作業、適度な休憩が重要",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "品質向上投資、長期的な保守コスト削減",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "テスト設計の理解が深まる基礎固めの日",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "kyo": [
+      {
+        "id": "engineer-kyo-001",
+        "titlePhrase": "デバッグ地獄に迷い込みがちな注意が必要な日",
+        "description": "今日は慎重な作業が求められます。急がば回れの精神で、しっかりとテストを行い、コードレビューも丁寧に実施しましょう。一時的な困難はありますが、経験値向上のチャンスと捉えて前向きに取り組みましょう。複雑なバグに遭遇しても冷静に対処し、根本原因の特定に集中することで必ず解決への道筋が見えてくるはずです。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "コミュニケーション不足に注意、誤解を避けよう",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "予期しないバグに遭遇、慎重なデバッグが必要",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "長時間作業による疲労、適度な休息を心がけて",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "技術投資の効果が見えにくい時期、継続が大切",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "難しい概念に苦戦、基本に立ち返る必要あり",
+            "emotionTone": "negative"
+          }
+        ]
+      },
+      {
+        "id": "engineer-kyo-002",
+        "titlePhrase": "依存関係の地獄に巻き込まれる厄介な日…",
+        "description": "今日はライブラリやパッケージの依存関係でトラブルに見舞われる可能性があります。バージョン競合、非互換性、廃止予定の警告など、環境周りの問題が頻発するかもしれません。しかし、この機会に依存関係の整理やDockerによる環境統一、デプロイプロセスの見直しなど、根本的な改善に取り組むチャンスでもあります。困難を乗り越えることで、より堅牢な開発環境を構築できるでしょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "環境構築で夜更かし、デートの約束に遅刻注意",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "依存関係エラーで開発進行が滞る",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "設定ファイルとにらめっこで眼精疲労",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "有料ツールの導入検討で出費増加",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "環境構築の複雑さに学習意欲が削がれる",
+            "emotionTone": "negative"
+          }
+        ]
+      },
+      {
+        "id": "engineer-kyo-003",
+        "titlePhrase": "レガシーコードの沼にハマる危険な日",
+        "description": "今日は古いシステムのメンテナンスや機能追加で苦労する日となりそうです。ドキュメントは不十分で、コメントも古く、なぜこのような実装になったのか理解に時間がかかるでしょう。しかし、レガシーシステムとの格闘は、システム全体の理解を深める貴重な機会でもあります。過去の開発者の意図を読み解き、より良い解決策を見つけていきましょう。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "古いコードの解読で頭がいっぱい、周りが見えない",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "レガシーシステムの仕様理解に時間を要する",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "長時間のコード解読で肩と首が凝る",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "レガシー改修コストが予想以上にかかる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "過去の技術的判断から多くを学ぶ機会",
+            "emotionTone": "neutral"
+          }
+        ]
+      }
+    ],
+    "daikyo": [
+      {
+        "id": "engineer-daikyo-001",
+        "titlePhrase": "システムクラッシュが連続する試練の一日…",
+        "description": "今日は技術的な困難が次々と襲いかかる厳しい一日となりそうです。予期しないエラーが頻発し、原因の特定に時間を要するでしょう。しかし、この試練を乗り越えることで、システム全体への理解が格段に深まります。デバッグスキルも大幅に向上し、将来的には今日の経験が貴重な財産となるはずです。冷静な判断力を保ち、一歩一歩着実に問題を解決していきましょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "忙しすぎてプライベート時間確保が困難、コミュニケーション不足",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "重大なバグ発生、緊急対応に追われる一日",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレス過多で体調不良、十分な休息が必要",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "緊急対応コストが発生、技術投資が裏目に出る",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "難解な技術問題に直面、学習の壁を感じる",
+            "emotionTone": "negative"
+          }
+        ]
+      },
+      {
+        "id": "engineer-daikyo-002",
+        "titlePhrase": "本番環境で大炎上、SREも匙を投げる地獄の日",
+        "description": "今日は本番環境での深刻なトラブルが発生し、サービスに大きな影響が出る可能性があります。データベースの不整合、セキュリティインシデント、インフラ障害、緊急デプロイの失敗など、複数の問題が同時多発的に起こるかもしれません。しかし、このような極限状況こそが、真のエンジニアとしての資質を問われる瞬間です。チーム一丸となって問題解決にあたり、必ず復旧させましょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "障害対応で連日徹夜、恋人との関係にヒビが入る恐れ",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "本番障害で責任追及、精神的プレッシャー最大",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレス性胃炎、睡眠不足で免疫力低下",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "障害による損失補償、昇進昇給は絶望的",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "インシデント対応で危機管理スキル習得",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "engineer-daikyo-003",
+        "titlePhrase": "全ての技術選択が裏目に出る呪われた暗黒の日",
+        "description": "今日は過去の技術的判断がすべて悪い方向に作用する不運な日です。選択したフレームワークに重大な脆弱性が発見されたり、依存ライブラリが急にサポート終了したり、アーキテクチャの根本的な問題が露呈したりするかもしれません。しかし、このような危機的状況は、技術選択の重要性と慎重さの必要性を深く理解する貴重な学習機会でもあります。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "判断力の低さを指摘され、信頼関係に亀裂",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "技術選択の失敗で大規模な修正作業",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "失敗への不安で不眠症、ストレス性の体調不良",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "技術的負債の解消に予算大幅超過",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "失敗から学ぶリスク評価とアーキテクチャ設計",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-04T19:59:00.000Z",
+    "contentVersion": "1.2.0",
+    "totalVariations": 16,
+    "status": "active",
+    "fortuneTypes": {
+      "daikichi": 3,
+      "kichi": 3, 
+      "chukichi": 3,
+      "shokichi": 3,
+      "kyo": 3,
+      "daikyo": 3
+    },
+    "requiredCategories": ["恋愛運", "仕事運", "健康運", "金運", "学業運"]
+  }
+}

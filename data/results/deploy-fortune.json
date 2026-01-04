@@ -1,0 +1,634 @@
+{
+  "omikujiTypeId": "deploy-fortune",
+  "results": {
+    "daikichi": [
+      {
+        "id": "deploy-daikichi-001",
+        "titlePhrase": "完璧なデプロイで全世界にコードが届く奇跡の日！",
+        "description": "今日のデプロイ作業は驚異的な成功を収めるでしょう。CI/CDパイプラインは完璧に動作し、ロールバックの心配もありません。サーバーの負荷も安定し、ユーザーからの反響も絶賛の嵐。メトリクスは全て緑色で、アラートも一切発生しない理想的なリリースとなります。チーム全体が達成感に満たされる素晴らしい一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デプロイ成功で同僚から尊敬の眼差し",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "ゼロダウンタイムで完璧リリース達成",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレスフリーなデプロイで心身爽快",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "システム安定稼働でボーナス確定",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "デプロイ自動化の知識が格段に向上",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-daikichi-002",
+        "titlePhrase": "ゴールデンデプロイ！CI/CDパイプラインが魔法のように機能する日！",
+        "description": "今日はデプロイのすべてが完璧に機能し、システムの安定性とパフォーマンスが最高潮に達します。自動テスト、コード品質チェック、セキュリティスキャン、すべてがグリーンで連続デプロイが余裕で実現されます。チーム全体が達成感に満たされる素晴らしい一日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "完璧なデプロイでチームのアイドルに成上がり",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "CI/CDの完璧な構築で開発効率が最高レベルに",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "ストレスフリーなデプロイで心身ともに絶好調",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "自動化の成功で運用コストが大幅削減、賞与アップ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "DevOpsとCI/CDのベストプラクティスを完全理解",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-daikichi-003",
+        "titlePhrase": "クラウドインフラが神ったデプロイでシステムが羽ばたく日！",
+        "description": "今日はクラウドインフラの最適化が完璧に機能し、システムのパフォーマンスが破格の向上をみせます。オートスケーリング、ロードバランシング、データベース最適化、すべてが理想的に連動し、ユーザー体験が最高品質に達する伝説的な日です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "システムパフォーマンスの美しさにユーザーが感動",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "インフラ最適化でプロダクトの競争力が最高レベルに",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "システムの完璧さに心が踊ってエンドルフィン大放出",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "パフォーマンス最適化でコストを大幅削減、利益向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "クラウドアーキテクチャの深い理解と実践力習得",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "chukichi": [
+      {
+        "id": "deploy-chukichi-001",
+        "titlePhrase": "スムーズなデプロイでチーム連携が光る日",
+        "description": "今日のデプロイはチーム全体の連携が素晴らしく機能し、計画通りに進行します。コミュニケーションも円滑で、各メンバーの役割も明確で、整然としたプロセスでリリースを完了できるでしょう。システムの安定性も高く、ユーザーからの反応も良好です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デプロイチームワークで結束が深まる",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "計画的なデプロイでプロジェクトが順調に進行",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "スムーズな作業でストレスが少なく適度な緒張感",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "効率的なデプロイで時間コストを節約",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "チーム連携の重要性とプロセス管理を学習",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-chukichi-002",
+        "titlePhrase": "ブルーグリーンデプロイが成功してシステムが安定する日",
+        "description": "今日はブルーグリーンデプロイ戦略が美しく機能し、ダウンタイムなしでシステムの更新を完了できます。ユーザーに影響を与えることなく、シームレスなアップデートが実現されます。モニタリングも完璧に機能し、システムの健康状態も一目瞭然です。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "無停止デプロイのエレガントさにユーザーが感動",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "ダウンタイムゼロでサービス品質が大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "シームレスなデプロイで精神的に安定",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "ダウンタイム削減で機会損失コストを大幅節約",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "ブルーグリーンデプロイの技術を深く理解",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-chukichi-003",
+        "titlePhrase": "コンテナオーケストレーションが美しく決まる日",
+        "description": "今日はKubernetesを使ったコンテナデプロイが素晴らしい成果を上げます。ポッドのスケーリング、サービスメッシュの設定、ロードバランシングの最適化、すべてが理想的に連動します。システムの柔軟性と安定性が両立した素晴らしいアーキテクチャです。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "素晴らしいアーキテクチャでチームの尊敬を集める",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "コンテナオーケストレーションでシステムの柔軟性大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "安定したシステムで精神的に安心",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "オーケストレーションでリソース効率が大幅改善",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "Kubernetesとコンテナ技術の実践的スキル向上",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kichi": [
+      {
+        "id": "deploy-kichi-001",
+        "titlePhrase": "安定したデプロイで着実な成果を上げる日",
+        "description": "今日のデプロイは特に大きなトラブルもなく、計画通りに進行します。システムの安定性も維持され、ユーザー体験にも悪影響はありません。チームの連携も良好で、着実に目標を達成できる良い一日です。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "安定した作業で信頼できる人として評価",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "着実なデプロイでプロジェクトが順調に進行",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "適度な緒張感で集中力を維持",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "安定的なサービス提供で顧客満足度維持",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "デプロイの基本手順とベストプラクティスを習得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-kichi-002",
+        "titlePhrase": "デプロイプロセスの改善で効率が向上する日",
+        "description": "今日はデプロイプロセスの小さな改善が積み重なって、全体的な効率向上を実感できます。自動化スクリプトの改良や、モニタリングの充実など、地道な取り組みが成果を生みます。チームの連携も良く、協力的な環境で作業できるでしょう。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "プロセス改善への取り組みで尊敬を集める",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "効率化でチームの生産性が着実に向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "改善成果を実感してモチベーションアップ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "プロセス效率化で時間コストを節約",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "継続的改善の重要性と手法を学習",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-kichi-003",
+        "titlePhrase": "モニタリングとログ管理が充実して安心できる日",
+        "description": "今日はシステムの監視体制が充実し、デプロイ後の状態を詳細に把握できます。メトリクスの収集、アラートの設定、ログの集約と解析、すべてが適切に機能します。問題が発生しても素早く検知できる安心感のあるデプロイです。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "細かい気遣いと安心感で信頼関係が深し",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "充実した監視体制でシステムの安定性向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "システムの安定性で精神的に安心",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "早期問題検知で障害コストを未然に防ぐ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "モニタリングとログ解析の実践スキル向上",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "shokichi": [
+      {
+        "id": "deploy-shokichi-001",
+        "titlePhrase": "小さなデプロイ改善が積み重なって成果を上げる日",
+        "description": "今日は地道なデプロイ改善の積み重ねが中心の一日です。スクリプトの小さなバグ修正、設定ファイルの整理、ドキュメントの更新など、一つ一つは小さな作業ですが、全体としてはシステムの安定性と保守性が向上します。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "細かい作業でも着実に取り組む姿勢が好評価",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "小さな改善の積み重ねでシステム品質向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "適度なペースで無理のない作業が可能",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "金運",
+            "content": "継続的改善で長期的なコスト効率向上",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "学業運",
+            "content": "デプロイの基本スキルと細かい気遣いが身につく",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-shokichi-002",
+        "titlePhrase": "デプロイ自動化の初歩を踏み出して効率化を実感する日",
+        "description": "今日はデプロイ自動化の第一歩を踏み出し、手動作業からの脱却を始められます。シンプルなスクリプトから始めて、少しずつ自動化の範囲を広げていくことができます。今まで手動で行っていた作業が自動化される実感は、小さな達成感をもたらします。",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "自動化への取り組みで先進的なイメージアップ",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "仕事運",
+            "content": "自動化の初歩で作業効率が向上し始める",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "手動作業減少で精神的・肉体的負担軽減",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "自動化で人件費と作業時間を節約",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "デプロイ自動化の基本技術とツールを学習",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-shokichi-003",
+        "titlePhrase": "デプロイドキュメントの整備でチーム連携が向上する日",
+        "description": "今日はデプロイ手順の文書化とナレッジベースの整備に取り組む日です。一見地味な作業に思えますが、このような基盤づくりがチーム全体の生産性向上に大きく貢献します。新しいメンバーのオンボーディングもスムーズになり、チームの知識共有も進みます。",
+        "emotionAttribute": "neutral",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "文書化への着実な取り組みで信頼関係構築",
+            "emotionTone": "neutral"
+          },
+          {
+            "name": "仕事運",
+            "content": "ドキュメント整備でチームの生産性大幅向上",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "健康運",
+            "content": "基盤づくりで将来的なストレス軽減に貢献",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "金運",
+            "content": "知識共有でチーム効率化、長期的コスト削減",
+            "emotionTone": "positive"
+          },
+          {
+            "name": "学業運",
+            "content": "ドキュメント作成と知識管理のスキル向上",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "kyo": [
+      {
+        "id": "deploy-kyo-001",
+        "titlePhrase": "デプロイ後に緊急ロールバック、修羅場の日…",
+        "description": "今日のデプロイでは予期しない問題が発生する可能性があります。本番環境での不具合発見、急激なトラフィック増加、データベースの予期せぬエラーなど、厳しい状況に直面するかもしれません。しかし、この経験こそがあなたのインフラスキルと危機管理能力を大幅に向上させる貴重な機会となるでしょう。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "緊急対応で深夜残業、プライベート時間なし",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "障害対応で他のタスクが全て後回し",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "連続デプロイ作業で疲労蓄積",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "障害復旧のクラウド費用で予算オーバー",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "障害対応から貴重な運用ノウハウを習得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-kyo-002",
+        "titlePhrase": "CI/CDパイプラインが連続で失敗する苦痛の日",
+        "description": "今日はCI/CDパイプラインが何度実行しても失敗し、デプロイが思うように進まない困難な日です。テスト環境では正常だったコードが本番で動かず、設定ミスやバグが次々と発覚するでしょう。しかし、この試練を乗り越えることで、デプロイプロセスの安定化と品質向上に大きく貢献できます。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "CI/CD失敗の連続でチーム内の雰囲気が悪化",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "パイプライン失敗でデプロイスケジュール大幅遅延",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "連続失敗のストレスで肩こりと頭痛",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "リリース遅延で機会損失コストが発生",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "パイプライン障害からCI/CDの重要性を深く学習",
+            "emotionTone": "neutral"
+          }
+        ]
+      },
+      {
+        "id": "deploy-kyo-003",
+        "titlePhrase": "本番環境でコードが動かない悪夢のデプロイ日",
+        "description": "今日は開発環境では完璧だったコードが本番環境では全く動かない悪夢のような日となります。環境依存のバグ、設定ファイルの相違、ライブラリのバージョン差異など、様々な問題が一度に露呈するでしょう。しかし、この厳しい経験から本番運用の奥深さとデプロイプロセスの重要性を学ぶことができます。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "本番障害対応で連日徹夜、プライベート皆無",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "本番環境トラブルでプロジェクト進行停止",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "緊急対応で睡眠不足、体調管理が困難",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "システム停止による損失で大幅な予算超過",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "本番運用の複雑さと環境管理の重要性を学習",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ],
+    "daikyo": [
+      {
+        "id": "deploy-daikyo-001",
+        "titlePhrase": "デプロイ大失敗でシステム全体が崩壊する最悪の日…",
+        "description": "今日はデプロイで深刻な問題が発生し、システム全体に影響を及ぼす可能性があります。データベースの破損、サービスの長時間停止、ユーザーデータの消失など、最悪のシナリオが現実になるかもしれません。しかし、この極限状況こそが、あなたを真のエンジニアに鍛え上げる最大の試練です。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "デプロイ失敗で恐怖されて完全に孤立状態",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "システム崩壊でプロジェクトが致命的打撃を受ける",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "急送復旧作業で連続徹夜、体調崩壊",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "システム復旧コストで予算が壊滅的打撃",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "最悪の失敗から学ぶシステム運用と危機管理",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-daikyo-002",
+        "titlePhrase": "セキュリティホールでシステムが乗っ取られる地獄の日…",
+        "description": "今日はデプロイ時に重大なセキュリティホールが発覚され、システムが悪意ある攻撃者に乗っ取られる恐れがあります。顧客情報の漏洩、サービスの不正利用、ファイルの改ざんなど、最悪のシナリオが現実になる可能性があります。しかし、このインシデント対応こそが、セキュリティの重要性を深く理解する機会です。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "セキュリティ事故で信頼関係が全て崩壊",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "セキュリティインシデントで会社の存続が危機",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "急送セキュリティ対応で精神的に限界超え",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "损害賠償と復旧コストで経営が危機的状況",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "セキュリティインシデント対応の実践的知識習得",
+            "emotionTone": "positive"
+          }
+        ]
+      },
+      {
+        "id": "deploy-daikyo-003",
+        "titlePhrase": "デプロイ地獄でエンジニア人生最大の危機が到来…",
+        "description": "今日はデプロイに関わるあらゆることが悪循環に陥り、エンジニアとしてのキャリアを根本から揺るがすような深刻な事態が発生する可能性があります。チーム全体がパニック状態に陥り、プロジェクトの継続すら危うくなる最悪のシナリオもあり得ます。しかし、この絶望的状況こそが、あなたを危機管理のスペシャリストに変える最終試練でもあります。",
+        "emotionAttribute": "negative",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "キャリア危機で家族や恐人からも遠ざかる",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "仕事運",
+            "content": "プロジェクト全体が崩壊してキャリアが終了の危機",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "健康運",
+            "content": "極限ストレスで心身ともに限界を超える",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "金運",
+            "content": "キャリア終了で收入源を失い経済的に絶望的",
+            "emotionTone": "negative"
+          },
+          {
+            "name": "学業運",
+            "content": "最大の危機から学ぶリーダーシップと危機管理",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "lastUpdated": "2025-01-04T20:40:00.000Z",
+    "contentVersion": "2.0.0",
+    "totalVariations": 20,
+    "status": "active",
+    "fortuneTypes": {
+      "daikichi": 3,
+      "chukichi": 3,
+      "kichi": 3,
+      "shokichi": 3,
+      "kyo": 3,
+      "daikyo": 3
+    },
+    "emotionDistributionRules": {
+      "daikichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "chukichi": { "positive": 0.80, "neutral": 0.15, "negative": 0.05 },
+      "kichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "shokichi": { "positive": 0.60, "neutral": 0.30, "negative": 0.10 },
+      "kyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 },
+      "daikyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 }
+    },
+    "requiredCategories": ["恋愛運", "仕事運", "健康運", "金運", "学業運"]
+  }
+}
