@@ -11,6 +11,7 @@
  * @property id - 一意識別子（URL-safe: 英数字、ハイフン、アンダースコアのみ）
  * @property name - 表示名（例: "今日の運勢"）
  * @property description - 簡潔な説明（50文字程度推奨）
+ * @property usesLegacySystem - 従来のfortuneMessagesシステムを使用するかどうか（デフォルト: true）
  *
  * 将来的な拡張フィールド候補:
  * - icon?: string - おみくじのアイコンパス
@@ -22,6 +23,7 @@ export interface Omikuji {
   id: string;
   name: string;
   description: string;
+  usesLegacySystem?: boolean;
 }
 
 /**
@@ -38,20 +40,5 @@ export const omikujiList: readonly Omikuji[] = [
     id: 'daily-luck',
     name: '今日の運勢',
     description: '今日1日の業務運を占います',
-  },
-  {
-    id: 'code-review',
-    name: 'コードレビュー運',
-    description: 'レビューの厳しさを占います',
-  },
-  {
-    id: 'bug-encounter',
-    name: 'バグ遭遇運',
-    description: '今日のバグ発見確率を占います',
-  },
-  {
-    id: 'deploy-luck',
-    name: 'デプロイ運',
-    description: 'デプロイの成功率を占います',
   },
 ] as const;
