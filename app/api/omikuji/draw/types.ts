@@ -3,8 +3,11 @@
  */
 
 export interface OmikujiDrawRequest {
-  typeId: string;
+  typeId?: string; // Legacy support
+  omikujiType?: string; // New format
   saisenLevel?: number; // 0-5, optional, defaults to 0
+  sessionId?: string; // Optional session ID for duplication control
+  seed?: string; // Optional seed for deterministic randomization
 }
 
 export interface OmikujiDrawResponse {

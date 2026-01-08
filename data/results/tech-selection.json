@@ -608,10 +608,86 @@
       }
     ]
   },
+  "categoryPools": {
+    "恋愛運": {
+      "positive": [
+        { "id": "love-pos-001", "content": "技術選定会議で意気投合する仲間に出会う", "weight": 1.0 },
+        { "id": "love-pos-002", "content": "オープンソースプロジェクトで素敵な出会い", "weight": 0.8 },
+        { "id": "love-pos-003", "content": "技術カンファレンスで共通の関心事で盛り上がる", "weight": 0.9 }
+      ],
+      "neutral": [
+        { "id": "love-neu-001", "content": "技術選定は順調だが恋愛は平常運転", "weight": 1.0 },
+        { "id": "love-neu-002", "content": "チームメンバーとは良好な関係を維持", "weight": 0.9 }
+      ],
+      "negative": [
+        { "id": "love-neg-001", "content": "技術選定で意見対立、関係がぎくしゃく", "weight": 1.0 },
+        { "id": "love-neg-002", "content": "新技術習得で忙しく恋愛は後回し", "weight": 0.8 }
+      ]
+    },
+    "仕事運": {
+      "positive": [
+        { "id": "work-pos-001", "content": "選択した技術でプロジェクトが大成功", "weight": 1.0 },
+        { "id": "work-pos-002", "content": "最適な技術選択でチームから高評価", "weight": 0.9 },
+        { "id": "work-pos-003", "content": "新技術導入でワークフロー大幅改善", "weight": 0.8 }
+      ],
+      "neutral": [
+        { "id": "work-neu-001", "content": "技術選定は平均的、特に大きな成果なし", "weight": 1.0 },
+        { "id": "work-neu-002", "content": "既存技術の延長線で安定した成果", "weight": 0.9 }
+      ],
+      "negative": [
+        { "id": "work-neg-001", "content": "技術選択ミスで開発が難航", "weight": 1.0 },
+        { "id": "work-neg-002", "content": "新技術の習得コストが予想以上に高い", "weight": 0.8 }
+      ]
+    },
+    "健康運": {
+      "positive": [
+        { "id": "health-pos-001", "content": "学習ストレスゼロ、スムーズな技術習得", "weight": 1.0 },
+        { "id": "health-pos-002", "content": "新技術への興味で活力がみなぎる", "weight": 0.9 }
+      ],
+      "neutral": [
+        { "id": "health-neu-001", "content": "通常の技術学習ペース、体調は普通", "weight": 1.0 },
+        { "id": "health-neu-002", "content": "適度な学習負荷で体調維持", "weight": 0.9 }
+      ],
+      "negative": [
+        { "id": "health-neg-001", "content": "新技術習得で睡眠不足に", "weight": 1.0 },
+        { "id": "health-neg-002", "content": "技術選択の悩みでストレス蓄積", "weight": 0.8 }
+      ]
+    },
+    "金運": {
+      "positive": [
+        { "id": "money-pos-001", "content": "その技術の専門家として高評価獲得", "weight": 1.0 },
+        { "id": "money-pos-002", "content": "新技術習得で市場価値アップ", "weight": 0.8 }
+      ],
+      "neutral": [
+        { "id": "money-neu-001", "content": "技術投資は平均的なリターン", "weight": 1.0 },
+        { "id": "money-neu-002", "content": "スキルアップによる緩やかな収入向上", "weight": 0.9 }
+      ],
+      "negative": [
+        { "id": "money-neg-001", "content": "技術習得コストが高く出費増", "weight": 1.0 },
+        { "id": "money-neg-002", "content": "選択ミスで投資が無駄に", "weight": 0.7 }
+      ]
+    },
+    "学業運": {
+      "positive": [
+        { "id": "study-pos-001", "content": "選択技術のドキュメントが充実で理解が進む", "weight": 1.0 },
+        { "id": "study-pos-002", "content": "新技術の概念が直感的に理解できる", "weight": 0.9 }
+      ],
+      "neutral": [
+        { "id": "study-neu-001", "content": "通常ペースで技術習得が進行", "weight": 1.0 },
+        { "id": "study-neu-002", "content": "標準的な学習カーブで着実に進歩", "weight": 0.9 }
+      ],
+      "negative": [
+        { "id": "study-neg-001", "content": "選択技術の習得が想像以上に困難", "weight": 1.0 },
+        { "id": "study-neg-002", "content": "ドキュメント不足で学習に苦労", "weight": 0.8 }
+      ]
+    }
+  },
   "metadata": {
     "lastUpdated": "2025-01-04T20:05:00.000Z",
     "contentVersion": "2.0.0",
+    "poolEnabled": true,
     "totalVariations": 18,
+    "totalPoolItems": 35,
     "status": "active",
     "fortuneTypes": {
       "daikichi": 3,
@@ -629,6 +705,13 @@
       "kyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 },
       "daikyo": { "positive": 0.15, "neutral": 0.25, "negative": 0.60 }
     },
-    "requiredCategories": ["恋愛運", "仕事運", "健康運", "金運", "学業運"]
+    "requiredCategories": ["恋愛運", "仕事運", "健康運", "金運", "学業運"],
+    "poolStatistics": {
+      "恋愛運": { "positive": 3, "neutral": 2, "negative": 2 },
+      "仕事運": { "positive": 3, "neutral": 2, "negative": 2 },
+      "健康運": { "positive": 2, "neutral": 2, "negative": 2 },
+      "金運": { "positive": 2, "neutral": 2, "negative": 2 },
+      "学業運": { "positive": 2, "neutral": 2, "negative": 2 }
+    }
   }
 }
