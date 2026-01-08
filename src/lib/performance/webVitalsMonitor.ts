@@ -12,12 +12,14 @@ interface PerformanceWarning {
   message: string;
 }
 
+interface MetricData {
+  value: number;
+  isGood: boolean;
+  threshold: number;
+}
+
 interface PerformanceReport {
-  [key: string]: {
-    value: number;
-    isGood: boolean;
-    threshold: number;
-  };
+  metrics: Record<string, MetricData>;
   overallScore: number;
 }
 
@@ -162,7 +164,7 @@ export class WebVitalsMonitor {
   }
 
   generateReport(): PerformanceReport {
-    const report: PerformanceReport = { overallScore: 0 };
+    const report: PerformanceReport = { metrics: {}, overallScore: 0 };
     let goodMetrics = 0;
     let totalMetrics = 0;
 
@@ -170,7 +172,7 @@ export class WebVitalsMonitor {
       const threshold = this.thresholds[name as keyof typeof this.thresholds];
       const isGood = value <= threshold;
 
-      report[name] = {
+      report.metrics[name] = {
         value,
         isGood,
         threshold

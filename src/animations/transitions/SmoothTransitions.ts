@@ -1,26 +1,28 @@
+import type { TargetAndTransition, Transition } from 'framer-motion';
+
 type Rarity = 'legendary' | 'epic' | 'rare' | 'common'
 type EasingName = 'mystical' | 'shrine' | 'divine' | 'gentle'
 
 interface TransitionConfig {
-  initial?: Record<string, unknown>
-  animate?: Record<string, unknown>
-  exit?: Record<string, unknown>
-  transition?: Record<string, unknown>
+  initial?: TargetAndTransition
+  animate?: TargetAndTransition
+  exit?: TargetAndTransition
+  transition?: Transition
 }
 
 interface OmikujiSelectionTransition {
-  cardExit: Record<string, unknown>
-  resultEntrance: Record<string, unknown>
+  cardExit: TargetAndTransition
+  resultEntrance: { initial: TargetAndTransition; animate: TargetAndTransition }
 }
 
 interface RarityTransition {
-  sparkleEffect: Record<string, unknown>
-  goldGlow: Record<string, unknown>
+  sparkleEffect: { initial: TargetAndTransition; animate: TargetAndTransition }
+  goldGlow: TargetAndTransition
 }
 
 interface ModalTransition {
-  backdrop: Record<string, unknown>
-  content: Record<string, unknown>
+  backdrop: { initial: TargetAndTransition; animate: TargetAndTransition; exit: TargetAndTransition; transition?: Transition }
+  content: { initial: TargetAndTransition; animate: TargetAndTransition; exit: TargetAndTransition; transition?: Transition }
 }
 
 interface ParallaxLayer {

@@ -124,7 +124,7 @@ export class TraditionalLayoutEngine {
       borderColor: theme.border,
       hasSpecialEffect: theme.hasSpecialEffect,
       shadowIntensity: theme.shadowIntensity,
-      ...(theme.warningIndicator && { warningIndicator: theme.warningIndicator })
+      ...(('warningIndicator' in theme) && { warningIndicator: theme.warningIndicator })
     });
 
     if (fortuneValue >= 4) {

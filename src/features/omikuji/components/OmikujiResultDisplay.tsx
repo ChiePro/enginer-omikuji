@@ -82,7 +82,7 @@ export function OmikujiResultDisplay({
   // Fallback implementations for missing fields
   const titlePhrase = fortune.getJapaneseName();
   const description = fortune.getDescription();
-  const categories = []; // Empty array for now
+  const categories: { name: string; content: string }[] = []; // Empty array for now
 
   // スクリーンリーダー用テキスト
   const screenReaderText = `おみくじ結果: ${fortune.getJapaneseName()}。${description}`;
@@ -116,9 +116,9 @@ export function OmikujiResultDisplay({
           <div
             data-testid="vertical-text-container"
             style={{
-              writingMode: layout.styles.writingMode,
-              textOrientation: layout.styles.textOrientation,
-              direction: layout.styles.direction
+              writingMode: layout.styles.writingMode as React.CSSProperties['writingMode'],
+              textOrientation: layout.styles.textOrientation as React.CSSProperties['textOrientation'],
+              direction: layout.styles.direction as React.CSSProperties['direction']
             }}
             className="vertical-text-content"
           >

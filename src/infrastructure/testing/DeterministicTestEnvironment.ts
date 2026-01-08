@@ -99,7 +99,7 @@ export class DeterministicTestEnvironment {
  * 個々のテスト実行時に利用可能な決定論的機能を提供
  */
 export class TestEnvironmentContext {
-  private rng: ReturnType<typeof seedrandom>;
+  private rng: seedrandom.PRNG;
   private testTime: Date | null = null;
   private seedCounter = 0;
 
@@ -115,9 +115,9 @@ export class TestEnvironmentContext {
    */
   getRandom(customSeed?: string): () => number {
     if (customSeed) {
-      return seedrandom(customSeed);
+      return seedrandom(customSeed) as () => number;
     }
-    return this.rng;
+    return this.rng as () => number;
   }
 
   /**

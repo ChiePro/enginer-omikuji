@@ -1,12 +1,13 @@
 export { JsonOmikujiResultRepository } from './JsonOmikujiResultRepository';
-export { FortuneRepository } from './FortuneRepository';
+export { JsonFortuneRepository } from './FortuneRepository';
+export type { IFortuneRepository } from './FortuneRepository';
 export { JsonCategoryPoolRepository } from './JsonCategoryPoolRepository';
-export {
+export type {
   ExtendedOmikujiResultData,
   CategoryContent,
   EmotionAttribute,
   CategoryName,
   ExtendedMetadata,
-  CategoryPoolStatistics,
-  SchemaValidator
+  CategoryPoolStatistics
 } from './ExtendedJsonSchema';
+export { SchemaValidator } from './ExtendedJsonSchema';

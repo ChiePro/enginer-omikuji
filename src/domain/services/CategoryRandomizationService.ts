@@ -1,4 +1,5 @@
-import { ICategoryRandomizationService, Result, RandomizationError, ValidationError } from './ICategoryRandomizationService';
+import type { ICategoryRandomizationService, Result, ValidationError, RandomizationError } from './ICategoryRandomizationService';
+export type { RandomizationError } from './ICategoryRandomizationService';
 import { Fortune } from '../valueObjects/Fortune';
 import { FortuneCategory } from '../valueObjects/FortuneCategory';
 import { CategoryContentPoolService } from './CategoryContentPoolService';
@@ -217,13 +218,14 @@ export class CategoryRandomizationService implements ICategoryRandomizationServi
    */
   async batchRandomizeCategories(
     fortunes: Fortune[],
+    omikujiTypeId: string,
     sessionId?: string
   ): Promise<Result<FortuneCategory[][], RandomizationError>> {
     try {
       const results: FortuneCategory[][] = [];
-      
+
       for (const fortune of fortunes) {
-        const result = await this.randomizeCategories(fortune, sessionId);
+        const result = await this.randomizeCategories(fortune, omikujiTypeId, sessionId);
         
         if (!result.success) {
           return result;
@@ -260,10 +262,11 @@ export class CategoryRandomizationService implements ICategoryRandomizationServi
    */
   async deterministicRandomizeCategories(
     fortune: Fortune,
+    omikujiTypeId: string,
     seed: string,
     sessionId?: string
   ): Promise<Result<FortuneCategory[], RandomizationError>> {
-    return this.randomizeCategories(fortune, sessionId, seed);
+    return this.randomizeCategories(fortune, omikujiTypeId, sessionId, seed);
   }
 }
 

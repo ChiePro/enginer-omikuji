@@ -1,11 +1,11 @@
-import { ICategoryRandomizationService, Result, RandomizationError } from './ICategoryRandomizationService';
+import { ICategoryRandomizationService, Result, RandomizationError, ValidationError } from './ICategoryRandomizationService';
+import { CategoryContentWithEmotion } from './ICategoryContentPoolService';
 import { Fortune } from '../valueObjects/Fortune';
 import { FortuneCategory } from '../valueObjects/FortuneCategory';
 import { CategoryContentPoolService } from './CategoryContentPoolService';
 import { SessionDuplicationGuardService } from './SessionDuplicationGuardService';
 import { EnhancedEmotionAttributeCalculator } from './EnhancedEmotionAttributeCalculator';
 import { CategorySelectionPerformanceOptimizer } from '../../infrastructure/performance/CategorySelectionPerformanceOptimizer';
-import { CategoryContent } from '../../infrastructure/repositories/json/ExtendedJsonSchema';
 
 /**
  * 最適化されたカテゴリランダム化オーケストレーションサービス
@@ -70,7 +70,7 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
       
       // 2. 各カテゴリにコンテンツを選択して割り当て（パフォーマンス測定付き）
       const categoriesWithContent: FortuneCategory[] = [];
-      const selectedContents: CategoryContent[] = [];
+      const selectedContents: CategoryContentWithEmotion[] = [];
 
       for (const category of requiredCategories) {
         // 各カテゴリごとに感情分布を取得（メモ化済み）
@@ -89,7 +89,7 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
             success: false,
             error: {
               type: 'PERFORMANCE_OPTIMIZATION_ERROR',
-              originalError: timingResult.error.originalError || timingResult.error,
+              originalError: ('originalError' in timingResult.error) ? timingResult.error.originalError : timingResult.error,
               performanceData: {
                 processingTimeMs: timingResult.error.processingTimeMs,
                 totalTimeMs: endTime - startTime
@@ -106,7 +106,7 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
         });
 
         // カテゴリにコンテンツを設定
-        const updatedCategory = category.withFortuneLevel(timingResult.data.selectedContent.content);
+        const updatedCategory = category.withFortuneLevel(timingResult.data.selectedContent.content.content);
         categoriesWithContent.push(updatedCategory);
         selectedContents.push(timingResult.data.selectedContent);
       }
@@ -115,7 +115,7 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
       if (sessionId && selectedContents.length > 0) {
         const sessionResult = await this.sessionGuardService.recordSelectedContent(
           sessionId,
-          selectedContents
+          selectedContents.map(sc => sc.content)
         );
 
         if (!sessionResult.success) {
@@ -191,12 +191,12 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
       
       // 2. 各カテゴリにキャッシュ付きコンテンツ選択
       const categoriesWithContent: FortuneCategory[] = [];
-      const selectedContents: CategoryContent[] = [];
+      const selectedContents: CategoryContentWithEmotion[] = [];
 
       for (let i = 0; i < requiredCategories.length; i++) {
         const category = requiredCategories[i];
         const cacheKey = `${cachePrefix}-${fortune.getValue()}-${category.getId()}`;
-        
+
         const cacheResult = await this.performanceOptimizer.selectCategoryContentWithCache(
           category,
           fortune,
@@ -209,7 +209,7 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
             success: false,
             error: {
               type: 'PERFORMANCE_OPTIMIZATION_ERROR',
-              originalError: cacheResult.error.originalError || cacheResult.error,
+              originalError: ('originalError' in cacheResult.error) ? cacheResult.error.originalError : cacheResult.error,
               performanceData: {
                 processingTimeMs: cacheResult.error.processingTimeMs || 0,
                 totalTimeMs: 0
@@ -219,19 +219,19 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
         }
 
         // カテゴリにコンテンツを設定
-        const updatedCategory = category.withFortuneLevel(cacheResult.data.content);
+        const updatedCategory = category.withFortuneLevel(cacheResult.data.content.content);
         categoriesWithContent.push(updatedCategory);
-        
+
         // キャッシュ情報を除いてセッション記録用にコンテンツを保存
         const { fromCache, cacheHit, ...contentForSession } = cacheResult.data;
-        selectedContents.push(contentForSession as CategoryContent);
+        selectedContents.push(contentForSession as CategoryContentWithEmotion);
       }
 
       // 3. セッション記録（オプション）
       if (sessionId && selectedContents.length > 0) {
         const sessionResult = await this.sessionGuardService.recordSelectedContent(
           sessionId,
-          selectedContents
+          selectedContents.map(sc => sc.content)
         );
 
         if (!sessionResult.success) {
@@ -277,28 +277,32 @@ export class OptimizedCategoryRandomizationService implements ICategoryRandomiza
    */
   validateCategoryCompleteness(
     categories: FortuneCategory[]
-  ): Result<boolean, { type: 'INCOMPLETE_CATEGORIES' | 'DUPLICATE_CATEGORIES'; message: string }> {
+  ): Result<boolean, ValidationError> {
     const requiredCategories = FortuneCategory.getAllRequiredCategories();
-    
-    if (categories.length !== requiredCategories.length) {
+    const requiredIds = requiredCategories.map(cat => cat.getId());
+    const categoryIds = categories.map(cat => cat.getId());
+
+    // Check for missing categories
+    const missingCategories = requiredIds.filter(id => !categoryIds.includes(id));
+    if (missingCategories.length > 0) {
       return {
         success: false,
         error: {
           type: 'INCOMPLETE_CATEGORIES',
-          message: `Expected ${requiredCategories.length} categories, got ${categories.length}`
+          missing: missingCategories
         }
       };
     }
 
-    const categoryIds = categories.map(cat => cat.getId());
+    // Check for duplicates
     const uniqueIds = new Set(categoryIds);
-    
     if (uniqueIds.size !== categoryIds.length) {
+      const duplicates = categoryIds.filter((id, index) => categoryIds.indexOf(id) !== index);
       return {
         success: false,
         error: {
           type: 'DUPLICATE_CATEGORIES',
-          message: 'Duplicate categories found'
+          duplicates
         }
       };
     }

@@ -20,14 +20,16 @@ export class RandomizedCategorySelectionWorkflow {
    */
   async executeIndependentCategorySelection(
     fortune: Fortune,
+    omikujiTypeId: string,
     sessionId?: string
   ): Promise<WorkflowResult<CategorySelectionResult>> {
     try {
       // Generate independent seed for this selection
       const independentSeed = `independent-${Date.now()}`;
-      
+
       const result = await this.randomizationService.randomizeCategories(
         fortune,
+        omikujiTypeId,
         sessionId,
         independentSeed
       );
@@ -69,13 +71,14 @@ export class RandomizedCategorySelectionWorkflow {
    */
   async executeIndependentCategorySelectionWithDetailedSeeds(
     fortune: Fortune,
+    omikujiTypeId: string,
     baseSeed: string,
     sessionId?: string
   ): Promise<WorkflowResult<CategorySelectionWithSeedDetails>> {
     try {
       const seedDetails: SeedDetail[] = [];
       const requiredCategories = FortuneCategory.getAllRequiredCategories();
-      
+
       // Generate category-specific seeds
       const categoriesWithSeeds = requiredCategories.map((category, index) => {
         const seed = `${baseSeed}-${category.getId()}-${index}`;
@@ -90,6 +93,7 @@ export class RandomizedCategorySelectionWorkflow {
       // Execute randomization with the first seed (simulation for demo)
       const result = await this.randomizationService.randomizeCategories(
         fortune,
+        omikujiTypeId,
         sessionId,
         seedDetails[0]?.seed
       );
@@ -131,16 +135,18 @@ export class RandomizedCategorySelectionWorkflow {
    */
   async generateMultipleCategoryCombinations(
     fortune: Fortune,
+    omikujiTypeId: string,
     count: number,
     sessionId?: string
   ): Promise<WorkflowResult<MultipleCombinationResult>> {
     try {
       const combinations: CategoryCombination[] = [];
-      
+
       for (let i = 0; i < count; i++) {
         const seed = `combination-${Date.now()}-${i}`;
         const result = await this.randomizationService.randomizeCategories(
           fortune,
+          omikujiTypeId,
           sessionId,
           seed
         );
@@ -189,16 +195,18 @@ export class RandomizedCategorySelectionWorkflow {
    */
   async validateCombinationVariation(
     fortune: Fortune,
+    omikujiTypeId: string,
     attempts: number,
     sessionId?: string
   ): Promise<WorkflowResult<CombinationVariationResult>> {
     try {
       const combinations = new Set<string>();
-      
+
       for (let i = 0; i < attempts; i++) {
         const seed = `validation-${Date.now()}-${i}`;
         const result = await this.randomizationService.randomizeCategories(
           fortune,
+          omikujiTypeId,
           sessionId,
           seed
         );
@@ -241,6 +249,7 @@ export class RandomizedCategorySelectionWorkflow {
    */
   async getCombinationDiversityStats(
     fortune: Fortune,
+    omikujiTypeId: string,
     samples: number,
     sessionId?: string
   ): Promise<WorkflowResult<DiversityStatsResult>> {
@@ -252,6 +261,7 @@ export class RandomizedCategorySelectionWorkflow {
         const seed = `diversity-${Date.now()}-${i}`;
         const result = await this.randomizationService.randomizeCategories(
           fortune,
+          omikujiTypeId,
           sessionId,
           seed
         );
@@ -263,12 +273,12 @@ export class RandomizedCategorySelectionWorkflow {
           // Track category distribution
           result.data.forEach(cat => {
             const categoryName = cat.getDisplayName();
-            const level = cat.getFortuneLevel();
-            
+            const level = cat.getFortuneLevel() ?? 'unknown';
+
             if (!categoryDistribution[categoryName]) {
               categoryDistribution[categoryName] = {};
             }
-            categoryDistribution[categoryName][level] = 
+            categoryDistribution[categoryName][level] =
               (categoryDistribution[categoryName][level] || 0) + 1;
           });
         }
@@ -306,16 +316,18 @@ export class RandomizedCategorySelectionWorkflow {
    */
   async executeEmotionWeightedSelection(
     fortune: Fortune,
+    omikujiTypeId: string,
     sessionId?: string
   ): Promise<WorkflowResult<EmotionWeightedSelectionResult>> {
     try {
       // Get emotion distribution for the fortune
       const emotionCalculator = this.emotionCalculator || new EnhancedEmotionAttributeCalculator();
       const distribution = emotionCalculator.getEnhancedEmotionDistribution(fortune);
-      
+
       // Execute randomization
       const result = await this.randomizationService.randomizeCategories(
         fortune,
+        omikujiTypeId,
         sessionId
       );
 
@@ -379,17 +391,18 @@ export class RandomizedCategorySelectionWorkflow {
    */
   async executeCompleteRandomizationWorkflow(
     fortune: Fortune,
+    omikujiTypeId: string,
     sessionId?: string,
     options?: WorkflowOptions
   ): Promise<WorkflowResult<CompleteWorkflowResult>> {
     try {
       const startTime = performance.now();
-      
+
       // Primary result generation
       let primaryResult: CategorySelectionResult;
-      
+
       if (options?.enableIndependentSelection !== false) {
-        const independentResult = await this.executeIndependentCategorySelection(fortune, sessionId);
+        const independentResult = await this.executeIndependentCategorySelection(fortune, omikujiTypeId, sessionId);
         if (!independentResult.success) {
           return {
             success: false,
@@ -401,10 +414,11 @@ export class RandomizedCategorySelectionWorkflow {
         // Use regular randomization
         const result = await this.randomizationService.randomizeCategories(
           fortune,
+          omikujiTypeId,
           sessionId,
           options?.customSeed
         );
-        
+
         if (!result.success) {
           return {
             success: false,
@@ -428,6 +442,7 @@ export class RandomizedCategorySelectionWorkflow {
       const combinationCount = options?.generateMultipleCombinations || 1;
       const alternativeCombinationsResult = await this.generateMultipleCategoryCombinations(
         fortune,
+        omikujiTypeId,
         combinationCount,
         sessionId
       );
@@ -442,7 +457,7 @@ export class RandomizedCategorySelectionWorkflow {
       // Apply emotion weighting if requested
       let emotionWeightingResult: EmotionWeightedSelectionResult | undefined;
       if (options?.applyEmotionWeighting !== false) {
-        const weightingResult = await this.executeEmotionWeightedSelection(fortune, sessionId);
+        const weightingResult = await this.executeEmotionWeightedSelection(fortune, omikujiTypeId, sessionId);
         if (weightingResult.success) {
           emotionWeightingResult = weightingResult.data;
         }

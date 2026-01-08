@@ -7,11 +7,12 @@ import {
   CategoryPoolData,
   Result 
 } from '../../../domain/repositories/ICategoryPoolRepository';
-import { 
-  ExtendedOmikujiResultData, 
-  CategoryContent, 
+import {
+  ExtendedOmikujiResultData,
+  CategoryContent,
   EmotionAttribute,
-  SchemaValidator 
+  CategoryName,
+  SchemaValidator
 } from './ExtendedJsonSchema';
 
 /**
@@ -62,7 +63,7 @@ export class JsonCategoryPoolRepository implements ICategoryPoolRepository {
       }
 
       // カテゴリプールからコンテンツを取得
-      const categoryName = category.getDisplayName();
+      const categoryName = category.getDisplayName() as CategoryName;
       const categoryPool = data.categoryPools?.[categoryName];
       
       if (!categoryPool || !categoryPool[emotionAttribute]) {
@@ -215,9 +216,10 @@ export class JsonCategoryPoolRepository implements ICategoryPoolRepository {
     pools: CategoryPoolData['pools']
   ): ExtendedOmikujiResultData['categoryPools'] {
     const categoryPools: ExtendedOmikujiResultData['categoryPools'] = {};
-    
+
     for (const [categoryName, emotionPools] of Object.entries(pools)) {
-      categoryPools[categoryName] = {
+      const typedCategoryName = categoryName as CategoryName;
+      categoryPools[typedCategoryName] = {
         positive: emotionPools.positive,
         neutral: emotionPools.neutral,
         negative: emotionPools.negative

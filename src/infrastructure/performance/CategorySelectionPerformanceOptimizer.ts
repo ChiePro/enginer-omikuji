@@ -1,8 +1,8 @@
 import { CategoryContentPoolService } from '../../domain/services/CategoryContentPoolService';
+import { CategoryContentWithEmotion } from '../../domain/services/ICategoryContentPoolService';
 import { Fortune } from '../../domain/valueObjects/Fortune';
 import { FortuneCategory } from '../../domain/valueObjects/FortuneCategory';
 import { EmotionAttributeDistribution } from '../../domain/valueObjects/EmotionAttributeDistribution';
-import { CategoryContent } from '../repositories/json/ExtendedJsonSchema';
 
 /**
  * カテゴリ選択パフォーマンス最適化クラス
@@ -250,7 +250,9 @@ export class CategorySelectionPerformanceOptimizer {
     if (this.poolDataCache.size >= this.MAX_CACHE_SIZE) {
       // 最も古いエントリを削除（LRU）
       const oldestKey = this.poolDataCache.keys().next().value;
-      this.poolDataCache.delete(oldestKey);
+      if (oldestKey !== undefined) {
+        this.poolDataCache.delete(oldestKey);
+      }
     }
 
     this.poolDataCache.set(key, result);
@@ -278,19 +280,19 @@ export type Result<T, E> =
   | { success: false; error: E };
 
 export interface CategorySelectionTimingResult {
-  selectedContent: CategoryContent;
+  selectedContent: CategoryContentWithEmotion;
   processingTimeMs: number;
   exceedsPerformanceTarget: boolean;
   timestamp: number;
 }
 
-export interface CachedCategoryContent extends CategoryContent {
+export interface CachedCategoryContent extends CategoryContentWithEmotion {
   fromCache: boolean;
   cacheHit: boolean;
 }
 
 export interface CachedPoolResult {
-  content: CategoryContent;
+  content: CategoryContentWithEmotion;
   timestamp: number;
   processingTimeMs: number;
 }

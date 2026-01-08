@@ -29,13 +29,15 @@ export class PerformanceMonitor {
    */
   async measureCategoryRandomizationPerformance(
     fortune: Fortune,
+    omikujiTypeId: string,
     sessionId?: string
   ): Promise<Result<CategoryRandomizationPerformance, RandomizationPerformanceError>> {
     const startTime = performance.now();
-    
+
     try {
       const result = await this.randomizationService.randomizeCategories(
         fortune,
+        omikujiTypeId,
         sessionId
       );
       
@@ -355,6 +357,7 @@ export class PerformanceMonitor {
       // 1. ランダム化パフォーマンス測定
       const randomizationResult = await this.measureCategoryRandomizationPerformance(
         config.fortune,
+        config.omikujiTypeId,
         config.sessionId
       );
 
@@ -750,6 +753,7 @@ export interface PerformanceDegradationResult {
 
 export interface FullWorkflowMonitoringConfig {
   fortune: Fortune;
+  omikujiTypeId: string;
   sessionId?: string;
   includeSessionOperations: boolean;
   includeBenchmarking: boolean;

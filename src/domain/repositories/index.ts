@@ -1,5 +1,5 @@
-export { IOmikujiResultRepository } from './IOmikujiResultRepository';
-export { 
+export type { IOmikujiResultRepository } from './IOmikujiResultRepository';
+export type {
   ICategoryPoolRepository,
   CategoryPoolRepositoryError,
   CategoryPoolData,

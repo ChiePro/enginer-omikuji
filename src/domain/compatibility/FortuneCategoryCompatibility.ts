@@ -70,7 +70,7 @@ export class FortuneCategoryCompatibility {
     return {
       id: result.getId(),
       omikujiType: {
-        id: result.getOmikujiType().id.value,
+        id: result.getOmikujiType().id.getValue(),
         name: result.getOmikujiType().name,
         description: result.getOmikujiType().description,
         icon: result.getOmikujiType().icon,
