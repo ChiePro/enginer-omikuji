@@ -53,13 +53,17 @@ export class EmotionAttributeDistribution {
   }
 
   static forFortuneLevel(fortuneValue: number): EmotionAttributeDistribution {
-    if (fortuneValue >= 3) { // 大吉・中吉
+    if (fortuneValue >= 4) { // 大吉 - 100% positive
+      return this.create(1.0, 0.0, 0.0).data!;
+    } else if (fortuneValue >= 3) { // 中吉
       return this.create(0.80, 0.15, 0.05).data!;
     } else if (fortuneValue >= 1) { // 吉・小吉
       return this.create(0.60, 0.30, 0.10).data!;
     } else if (fortuneValue === 0) { // 末吉
       return this.create(0.30, 0.50, 0.20).data!;
-    } else { // 凶・大凶
+    } else if (fortuneValue <= -2) { // 大凶 - 100% negative
+      return this.create(0.0, 0.0, 1.0).data!;
+    } else { // 凶
       return this.create(0.15, 0.25, 0.60).data!;
     }
   }

@@ -608,9 +608,37 @@
       }
     ]
   },
+  "categoryPools": {
+    "恋愛運": {
+      "positive": [{ "id": "love-pos-001", "content": "デプロイ成功で同僚から尊敬", "weight": 1.0 }, { "id": "love-pos-002", "content": "チームワークで絆が深まる", "weight": 0.8 }],
+      "neutral": [{ "id": "love-neu-001", "content": "通常の人間関係", "weight": 1.0 }],
+      "negative": [{ "id": "love-neg-001", "content": "デプロイ失敗で気まずい雰囲気", "weight": 1.0 }]
+    },
+    "仕事運": {
+      "positive": [{ "id": "work-pos-001", "content": "スムーズなデプロイで高評価", "weight": 1.0 }, { "id": "work-pos-002", "content": "障害なくサービス運用", "weight": 0.9 }],
+      "neutral": [{ "id": "work-neu-001", "content": "通常のデプロイ作業", "weight": 1.0 }],
+      "negative": [{ "id": "work-neg-001", "content": "デプロイ失敗で緊急対応", "weight": 1.0 }]
+    },
+    "健康運": {
+      "positive": [{ "id": "health-pos-001", "content": "順調なデプロイで安心", "weight": 1.0 }],
+      "neutral": [{ "id": "health-neu-001", "content": "普通の体調", "weight": 1.0 }],
+      "negative": [{ "id": "health-neg-001", "content": "緊急対応で睡眠不足", "weight": 1.0 }]
+    },
+    "金運": {
+      "positive": [{ "id": "money-pos-001", "content": "安定運用で評価アップ", "weight": 1.0 }],
+      "neutral": [{ "id": "money-neu-001", "content": "通常の収入", "weight": 1.0 }],
+      "negative": [{ "id": "money-neg-001", "content": "障害対応コストで出費", "weight": 1.0 }]
+    },
+    "学業運": {
+      "positive": [{ "id": "study-pos-001", "content": "デプロイで新しい知識獲得", "weight": 1.0 }],
+      "neutral": [{ "id": "study-neu-001", "content": "通常の学習ペース", "weight": 1.0 }],
+      "negative": [{ "id": "study-neg-001", "content": "障害対応で学習時間減", "weight": 1.0 }]
+    }
+  },
   "metadata": {
     "lastUpdated": "2025-01-04T20:40:00.000Z",
     "contentVersion": "2.0.0",
+    "poolEnabled": true,
     "totalVariations": 20,
     "status": "active",
     "fortuneTypes": {

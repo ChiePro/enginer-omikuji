@@ -608,9 +608,37 @@
       }
     ]
   },
+  "categoryPools": {
+    "恋愛運": {
+      "positive": [{ "id": "love-pos-001", "content": "レビューで良い関係構築", "weight": 1.0 }, { "id": "love-pos-002", "content": "チーム作業で絆が深まる", "weight": 0.8 }],
+      "neutral": [{ "id": "love-neu-001", "content": "通常の人間関係", "weight": 1.0 }],
+      "negative": [{ "id": "love-neg-001", "content": "レビューで関係がぎくしゃく", "weight": 1.0 }]
+    },
+    "仕事運": {
+      "positive": [{ "id": "work-pos-001", "content": "レビューで高評価獲得", "weight": 1.0 }, { "id": "work-pos-002", "content": "コード品質で賞賛される", "weight": 0.9 }],
+      "neutral": [{ "id": "work-neu-001", "content": "通常の作業継続", "weight": 1.0 }],
+      "negative": [{ "id": "work-neg-001", "content": "レビューで多数の指摘", "weight": 1.0 }]
+    },
+    "健康運": {
+      "positive": [{ "id": "health-pos-001", "content": "集中力向上で体調良好", "weight": 1.0 }],
+      "neutral": [{ "id": "health-neu-001", "content": "普通の体調", "weight": 1.0 }],
+      "negative": [{ "id": "health-neg-001", "content": "長時間作業で疲労", "weight": 1.0 }]
+    },
+    "金運": {
+      "positive": [{ "id": "money-pos-001", "content": "スキル向上で収入アップ", "weight": 1.0 }],
+      "neutral": [{ "id": "money-neu-001", "content": "通常の収入", "weight": 1.0 }],
+      "negative": [{ "id": "money-neg-001", "content": "学習コストで出費", "weight": 1.0 }]
+    },
+    "学業運": {
+      "positive": [{ "id": "study-pos-001", "content": "新しい知識習得", "weight": 1.0 }],
+      "neutral": [{ "id": "study-neu-001", "content": "通常の学習ペース", "weight": 1.0 }],
+      "negative": [{ "id": "study-neg-001", "content": "学習の壁を感じる", "weight": 1.0 }]
+    }
+  },
   "metadata": {
     "lastUpdated": "2025-01-04T20:35:00.000Z",
     "contentVersion": "2.0.0",
+    "poolEnabled": true,
     "totalVariations": 20,
     "status": "active",
     "fortuneTypes": {

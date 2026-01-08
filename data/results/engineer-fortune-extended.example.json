@@ -1,0 +1,229 @@
+{
+  "omikujiTypeId": "engineer-fortune",
+  "results": {
+    "_comment": "既存の固定結果（下位互換性のため維持）",
+    "daikichi": [
+      {
+        "id": "engineer-daikichi-fallback",
+        "titlePhrase": "フォールバック用タイトル",
+        "description": "カテゴリプールが枯渇した場合に使用される固定結果",
+        "emotionAttribute": "positive",
+        "categories": [
+          {
+            "name": "恋愛運",
+            "content": "既存フォーマットのコンテンツ",
+            "emotionTone": "positive"
+          }
+        ]
+      }
+    ]
+  },
+  "categoryPools": {
+    "恋愛運": {
+      "positive": [
+        {
+          "id": "love-pos-001",
+          "content": "ペアプロで距離が縮まる、GitHubのフォロワー急増",
+          "weight": 1.0,
+          "metadata": {
+            "tags": ["programming", "teamwork"],
+            "author": "system",
+            "addedDate": "2024-01-01"
+          }
+        },
+        {
+          "id": "love-pos-002",
+          "content": "開発者コミュニティで素敵な出会い、技術イベントでの交流",
+          "weight": 0.8,
+          "metadata": {
+            "tags": ["community", "networking"]
+          }
+        },
+        {
+          "id": "love-pos-003",
+          "content": "コードレビューで好印象、Slackでの会話が弾む",
+          "weight": 0.9
+        }
+      ],
+      "neutral": [
+        {
+          "id": "love-neu-001",
+          "content": "いつも通りのデスクワーク、特に変化なし",
+          "weight": 1.0
+        },
+        {
+          "id": "love-neu-002",
+          "content": "オンラインミーティングで普通の交流",
+          "weight": 1.0
+        }
+      ],
+      "negative": [
+        {
+          "id": "love-neg-001",
+          "content": "コードレビューで気まずい雰囲気、意見の相違",
+          "weight": 1.0
+        },
+        {
+          "id": "love-neg-002",
+          "content": "ペアプロでの意思疎通がうまくいかない",
+          "weight": 0.8
+        }
+      ]
+    },
+    "仕事運": {
+      "positive": [
+        {
+          "id": "work-pos-001",
+          "content": "コードレビューが一発承認、新技術習得チャンス到来",
+          "weight": 1.0
+        },
+        {
+          "id": "work-pos-002",
+          "content": "難しいバグを瞬時に解決、チームから称賛",
+          "weight": 0.9
+        },
+        {
+          "id": "work-pos-003",
+          "content": "新規プロジェクトのリード役に抜擢",
+          "weight": 0.7
+        }
+      ],
+      "neutral": [
+        {
+          "id": "work-neu-001",
+          "content": "定例タスクを淡々とこなす一日",
+          "weight": 1.0
+        },
+        {
+          "id": "work-neu-002",
+          "content": "通常のコーディング業務、特に問題なし",
+          "weight": 1.0
+        }
+      ],
+      "negative": [
+        {
+          "id": "work-neg-001",
+          "content": "デプロイ失敗でロールバック、原因調査に苦戦",
+          "weight": 1.0
+        },
+        {
+          "id": "work-neg-002",
+          "content": "レビューで大量の修正依頼、設計からやり直し",
+          "weight": 0.9
+        }
+      ]
+    },
+    "健康運": {
+      "positive": [
+        {
+          "id": "health-pos-001",
+          "content": "良い椅子との出会い、目の疲れ軽減",
+          "weight": 1.0
+        },
+        {
+          "id": "health-pos-002",
+          "content": "姿勢改善で肩こり解消、集中力アップ",
+          "weight": 0.9
+        }
+      ],
+      "neutral": [
+        {
+          "id": "health-neu-001",
+          "content": "いつも通りの体調、特に変化なし",
+          "weight": 1.0
+        }
+      ],
+      "negative": [
+        {
+          "id": "health-neg-001",
+          "content": "デバッグで徹夜、眼精疲労がピーク",
+          "weight": 1.0
+        },
+        {
+          "id": "health-neg-002",
+          "content": "長時間のコーディングで腰痛悪化",
+          "weight": 0.8
+        }
+      ]
+    },
+    "金運": {
+      "positive": [
+        {
+          "id": "money-pos-001",
+          "content": "ストックオプション上昇、副業案件獲得",
+          "weight": 1.0
+        },
+        {
+          "id": "money-pos-002",
+          "content": "技術記事の報酬が入る、OSS活動が評価される",
+          "weight": 0.7
+        }
+      ],
+      "neutral": [
+        {
+          "id": "money-neu-001",
+          "content": "給料日まで普通に過ごす、特に変動なし",
+          "weight": 1.0
+        }
+      ],
+      "negative": [
+        {
+          "id": "money-neg-001",
+          "content": "開発環境への投資で出費、機材トラブル",
+          "weight": 1.0
+        },
+        {
+          "id": "money-neg-002",
+          "content": "技術書の衝動買いで予算オーバー",
+          "weight": 0.6
+        }
+      ]
+    },
+    "学業運": {
+      "positive": [
+        {
+          "id": "study-pos-001",
+          "content": "新フレームワーク理解が進む、アーキテクチャ設計スキル向上",
+          "weight": 1.0
+        },
+        {
+          "id": "study-pos-002",
+          "content": "技術カンファレンスで新知識獲得、実装アイデア湧く",
+          "weight": 0.9
+        }
+      ],
+      "neutral": [
+        {
+          "id": "study-neu-001",
+          "content": "ドキュメント読みが普通に進む、理解度は平均的",
+          "weight": 1.0
+        }
+      ],
+      "negative": [
+        {
+          "id": "study-neg-001",
+          "content": "新技術の習得に苦戦、概念理解が進まない",
+          "weight": 1.0
+        },
+        {
+          "id": "study-neg-002",
+          "content": "公式ドキュメントが難解、実装で詰まる",
+          "weight": 0.8
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "lastUpdated": "2024-01-01T00:00:00Z",
+    "contentVersion": "2.0.0",
+    "poolEnabled": true,
+    "totalPoolItems": 32,
+    "poolStatistics": {
+      "恋愛運": { "positive": 3, "neutral": 2, "negative": 2 },
+      "仕事運": { "positive": 3, "neutral": 2, "negative": 2 },
+      "健康運": { "positive": 2, "neutral": 1, "negative": 2 },
+      "金運": { "positive": 2, "neutral": 1, "negative": 2 },
+      "学業運": { "positive": 2, "neutral": 1, "negative": 2 }
+    }
+  }
+}

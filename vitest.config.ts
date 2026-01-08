@@ -10,6 +10,7 @@ export default defineConfig({
     setupFiles: ['./src/test/setup.ts'],
     include: [
       'src/**/*.{test,spec}.{js,ts,jsx,tsx}',
+      'app/**/*.{test,spec}.{js,ts,jsx,tsx}',
       '**/__tests__/**/*.{js,ts,jsx,tsx}'
     ],
     exclude: [

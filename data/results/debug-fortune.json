@@ -608,9 +608,69 @@
       }
     ]
   },
+  "categoryPools": {
+    "恋愛運": {
+      "positive": [
+        { "id": "love-pos-001", "content": "ペアデバッギングで距離が縮まる", "weight": 1.0 },
+        { "id": "love-pos-002", "content": "バグ解決で同僚から尊敬の眼差し", "weight": 0.8 }
+      ],
+      "neutral": [
+        { "id": "love-neu-001", "content": "通常通りのデバッグ作業", "weight": 1.0 }
+      ],
+      "negative": [
+        { "id": "love-neg-001", "content": "デバッグで徹夜、恋人に心配される", "weight": 1.0 }
+      ]
+    },
+    "仕事運": {
+      "positive": [
+        { "id": "work-pos-001", "content": "難解なバグを華麗に解決", "weight": 1.0 },
+        { "id": "work-pos-002", "content": "デバッグスキルでチームに貢献", "weight": 0.9 }
+      ],
+      "neutral": [
+        { "id": "work-neu-001", "content": "標準的なデバッグ作業が継続", "weight": 1.0 }
+      ],
+      "negative": [
+        { "id": "work-neg-001", "content": "バグの原因が見つからず苦戦", "weight": 1.0 }
+      ]
+    },
+    "健康運": {
+      "positive": [
+        { "id": "health-pos-001", "content": "デバッグ作業で集中力向上", "weight": 1.0 }
+      ],
+      "neutral": [
+        { "id": "health-neu-001", "content": "通常の体調でデバッグ継続", "weight": 1.0 }
+      ],
+      "negative": [
+        { "id": "health-neg-001", "content": "長時間デバッグで目が疲れる", "weight": 1.0 }
+      ]
+    },
+    "金運": {
+      "positive": [
+        { "id": "money-pos-001", "content": "デバッグ能力で昇給の可能性", "weight": 1.0 }
+      ],
+      "neutral": [
+        { "id": "money-neu-001", "content": "通常の収入、特に変化なし", "weight": 1.0 }
+      ],
+      "negative": [
+        { "id": "money-neg-001", "content": "デバッグツール購入で出費", "weight": 1.0 }
+      ]
+    },
+    "学業運": {
+      "positive": [
+        { "id": "study-pos-001", "content": "バグ解析でシステム理解が深まる", "weight": 1.0 }
+      ],
+      "neutral": [
+        { "id": "study-neu-001", "content": "デバッグ技術の着実な向上", "weight": 1.0 }
+      ],
+      "negative": [
+        { "id": "study-neg-001", "content": "複雑なバグで学習の壁を感じる", "weight": 1.0 }
+      ]
+    }
+  },
   "metadata": {
     "lastUpdated": "2025-01-04T20:30:00.000Z",
     "contentVersion": "2.0.0",
+    "poolEnabled": true,
     "totalVariations": 20,
     "status": "active",
     "fortuneTypes": {
